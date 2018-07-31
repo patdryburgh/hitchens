@@ -77,8 +77,12 @@ hr {
   }
 }
 
+.divided:after {
+  @include divider;
+}
+
 .home {
-  max-width: 30em;
+  max-width: 24em;
   margin: auto;
   padding: ($spacing-unit * 4) $spacing-unit;
 }
@@ -86,6 +90,7 @@ hr {
 .home h1 {
   font-size: 2em;
   padding: 2em 0;
+  margin-bottom: 0;
   text-align: center;
 }
 

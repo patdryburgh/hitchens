@@ -28,7 +28,31 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+### Home Layout
+
+The `home` layout presents a list of articles ordered chronologically. All articles are presented in one page, similar to a book's table of contents.
+
+The masthead of the home page is derived from the `title` and `description` set in your site's `_config.yml` file.
+
+#### Navigation
+
+To include navigation in your site's masthead:
+
+1. Create a `_data` directory in the root of your site.
+2. Add a `menu.yml` file to the `_data` directory.
+3. Use the following format to list your menu items:
+
+```
+- title: About
+  url: /about
+```
+
+Be sure to start your `url`s with a `/`.
+
+
+### Post Layout
+
+A sparsely decorated layout designed to present long-form writing in a manner that's pleasing to read.
 
 ## Contributing
 
@@ -38,10 +62,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/patdry
 
 To set up your environment to develop this theme, run `bundle install`.
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `hitchens.gemspec` accordingly.
+The theme is setup just like a normal Jekyll site. To test the theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using the theme. Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications to the theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
 ## License
 

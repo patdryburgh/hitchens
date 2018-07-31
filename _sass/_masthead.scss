@@ -1,14 +1,14 @@
 .site-masthead {
   background: $brand-color;
-  min-height: 100vh;
   box-sizing: border-box;
+  min-height: 100vh;
+  padding: $spacing-unit * 2;
+  position: relative;
 
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   text-align: center;
-  padding: $spacing-unit * 2;
 }
 
 .site-masthead h1 {
@@ -26,4 +26,31 @@
   @media (min-width: $on-tablet) {
     font-size: 3em;
   }
+}
+
+.site-navigation {
+  position: absolute;
+  bottom: .75em;
+  left: 2em;
+  right: 2em;
+}
+
+.site-navigation ul {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.site-navigation li {
+  list-style: none;
+  font-size: .875em;
+  font-variant: small-caps;
+  margin: 0;
+}
+
+.site-navigation a {
+  display: block;
+  padding: .25em .5em;
+  text-decoration: none;
 }

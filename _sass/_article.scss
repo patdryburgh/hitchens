@@ -2,6 +2,7 @@ article > * {
   margin-left: auto;
   margin-right: auto;
   max-width: 36rem;
+  padding: 0 $spacing-unit;
 }
 
 article > h1 {
@@ -9,10 +10,6 @@ article > h1 {
   max-width: 48rem;
   padding: 2em 0;
   text-align: center;
-}
-
-h1.post-title:after {
-  @include divider;
 }
 
 article p {
@@ -26,6 +23,14 @@ article h2 + p {
   text-indent: 0;
 }
 
+article p > img {
+  margin-left: -1em;
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  margin: 2em auto;
+}
+
 .article-meta {
   margin-bottom: 2em;
   margin-top: 2em;
@@ -34,6 +39,8 @@ article h2 + p {
 
 .back-link {
   display: inline-block;
+  font-size: .75em;
   padding: $spacing-unit;
   text-decoration: none;
+  text-transform: uppercase;
 }
