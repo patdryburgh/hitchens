@@ -1,11 +1,8 @@
-# hitchens
+# Hitchens
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+![Hitchens Preview](https://raw.githubusercontent.com/patdryburgh/hitchens/master/assets/images/hitchens-preview.png?token=AAt3Zdd496iHt2EsGaZPS8kiJdtO-D2Zks5babOPwA%3D%3D)
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
-
-TODO: Delete this and the text above, and describe your gem
-
+An inarguably well-designed Jekyll theme.
 
 ## Installation
 
