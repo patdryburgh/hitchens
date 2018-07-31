@@ -39,7 +39,7 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <a href="{{ post.url }}" class="post-link">
+        <a href="{{ post.url | prepend: baseurl }}" class="post-link">
           <span class="post-title">
             {{ post.title }}
           </span>
