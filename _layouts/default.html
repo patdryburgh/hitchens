@@ -8,7 +8,7 @@
     
     <title>{{ site.title }} &mdash; {{ page.title }}</title>
 
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl | apend: site.time }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}?{{ site.time | date: '%s%N' }}">
 
   </head>
   <body>
