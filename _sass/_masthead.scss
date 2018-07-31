@@ -1,0 +1,28 @@
+.site-masthead {
+  background: $brand-color;
+  min-height: 100vh;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: $spacing-unit * 2;
+}
+
+.site-masthead h1 {
+  font-size: 3em;
+  margin-bottom: .125em;
+  @media (min-width: $on-tablet) {
+    font-size: 6em;
+  }
+}
+
+.site-masthead h2 {
+  color: $muted-text-color;
+  font-size: 1.5em;
+  @media (min-width: $on-tablet) {
+    font-size: 3em;
+  }
+}

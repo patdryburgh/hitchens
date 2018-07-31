@@ -1,0 +1,32 @@
+article > * {
+  margin: auto;
+  max-width: 36rem;
+}
+
+article > h1 {
+  font-size: 2em;
+  max-width: 48rem;
+  padding: 2em 0;
+  text-align: center;
+}
+
+article p {
+  text-align: justify;
+  text-indent: 1.5em;
+  text-justify: inter-word;
+  &:first-of-type {
+    text-indent: 0;
+  }
+}
+
+.article-meta {
+  margin-bottom: 2em;
+  margin-top: 2em;
+  text-align: right;
+}
+
+.back-link {
+  display: inline-block;
+  padding: $spacing-unit;
+  text-decoration: none;
+}

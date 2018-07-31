@@ -1,0 +1,68 @@
+body {
+  color: $text-color;
+  font-family: Baskerville, "Times New Roman", serif;
+  font-size: 1.25em;
+  line-height: 1.325;
+}
+
+a {
+  color: $text-color;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  &:after {
+    @include divider;
+  }
+}
+
+.home {
+  max-width: 30em;
+  margin: auto;
+  padding: ($spacing-unit * 4) $spacing-unit;
+}
+
+.home h1 {
+  font-size: 2em;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.post-list {
+  margin: 1em 0;
+  list-style: none;
+}
+
+.post-link {
+  color: $text-color;
+  display: flex;
+  flex-direction: column-reverse;
+  text-decoration: none;
+  padding: .25em 0;
+  .post-title {
+    display: block;
+    padding: .25em 0;
+  }
+  &:hover .post-title,
+  &:focus .post-title {
+    text-decoration: underline;
+  }
+  @media (min-width: $on-tablet) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .post-title {
+      margin-right: 4em;
+    }
+  }
+}
+
+.post-date {
+  color: $muted-text-color;
+  display: block;
+  font-size: .825em;
+  padding: .5em 0;
+  white-space: nowrap;
+  text-transform: uppercase;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>{{ site.title }} {{ page.title }}</title>
+
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl | apend: site.time }}">
+
+  </head>
+  <body>
+
+    {{ content }}
+
+  </body>
+</html>
