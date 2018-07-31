@@ -1,6 +1,6 @@
 body {
   color: $text-color;
-  font-family: Garamond, "Times New Roman", serif;
+  font-family: "EB Garamond", Garamond, "Times New Roman", serif;
   font-size: 1.3125em;
   line-height: 1.325;
 }
@@ -62,20 +62,19 @@ p > cite {
 hr {
   border: 0;
   height: 0;
-  margin: 4em 0 4.5em;
-  &:after {
-    @include divider;
-  }
+  @include divider;
+  margin: 4em 0;
 }
 
-.divided:after {
+.divided::after {
+  content: "";
   @include divider;
 }
 
 .home {
   max-width: 24em;
   margin: auto;
-  padding: ($spacing-unit * 4) $spacing-unit;
+  padding: 4em 1em;
 }
 
 .home h1 {
