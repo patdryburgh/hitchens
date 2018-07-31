@@ -3,6 +3,8 @@
 
 @charset "utf-8";
 
+$asset_url: '{{ '/assets' | absolute_url }}';
+
 @import 
   "reset",
   "variables",
