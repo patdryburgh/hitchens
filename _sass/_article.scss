@@ -1,5 +1,6 @@
 article > * {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 36rem;
 }
 
@@ -10,23 +11,19 @@ article > h1 {
   text-align: center;
 }
 
+h1.post-title:after {
+  @include divider;
+}
+
 article p {
   text-align: justify;
   text-indent: 1.5em;
   text-justify: inter-word;
 }
 
-article p:first-of-type {
+article p:first-of-type,
+article h2 + p {
   text-indent: 0;
-}
-
-blockquote {
-  border-left: 4px solid $brand-color;
-  margin: 1em auto;
-  font-style: italic;
-  > * {
-    padding: 0 1.5em;
-  }
 }
 
 .article-meta {

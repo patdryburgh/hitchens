@@ -1,4 +1,8 @@
 @mixin divider {
-  content: "\0FC0 \27A4";
-
+  content: "";
+  display: block;
+  width: 152px;
+  height: 12px;
+  margin: 1em auto 0;
+  background-image: url('/assets/images/divider.svg');
 }

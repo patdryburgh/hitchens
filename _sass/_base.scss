@@ -1,17 +1,77 @@
 body {
   color: $text-color;
-  font-family: Baskerville, "Times New Roman", serif;
-  font-size: 1.25em;
+  font-family: Garamond, "Times New Roman", serif;
+  font-size: 1.3125em;
   line-height: 1.325;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Garamond, "Times New Roman", serif;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 1em auto;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 1.3333em auto;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.25em;
+  font-style: italic;
+  margin: 1.875em auto;
+  text-align: center;
+}
+
+h5 {
+  font-size: 1em;
+  font-style: italic;
+  margin: 2em auto;
+  text-align: center;
+}
+
+h6 {
+  font-size: .875em;
+  font-style: italic;
+  margin: 2.25em auto;
+  text-align: center;
 }
 
 a {
   color: $text-color;
 }
 
+blockquote {
+  margin: 2em auto;
+  opacity: .8;
+  > * {
+    padding: 0 1.5em;
+  }
+}
+
+blockquote.epigraph {
+  font-style: italic;
+}
+
+p > cite {
+  display: block;
+  text-align: right;
+}
+
 hr {
   border: 0;
   height: 0;
+  margin: 4em 0 4.5em;
   &:after {
     @include divider;
   }
@@ -62,7 +122,9 @@ hr {
   color: $muted-text-color;
   display: block;
   font-size: .825em;
-  padding: .5em 0;
   white-space: nowrap;
   text-transform: uppercase;
+  .post-link & {
+    padding: .5em 0;
+  }
 }
