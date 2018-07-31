@@ -23,9 +23,8 @@ These are the indicators of crisis, subject to data and statistics. Less measura
 
 >Today I say to you that the challenges we face are real. They are serious and they are many. They will not be met easily or in a short span of time. But know this, America - they will be met.
 
-On this day, we gather because we have chosen hope over fear, unity of purpose over conflict and discord.
-
-On this day, we come to proclaim an end to the petty grievances and false promises, the recriminations and worn out dogmas, that for far too long have strangled our politics.
+- On this day, we gather because we have chosen hope over fear, unity of purpose over conflict and discord.
+- On this day, we come to proclaim an end to the petty grievances and false promises, the recriminations and worn out dogmas, that for far too long have strangled our politics.
 
 ### We are young
 
@@ -37,11 +36,11 @@ In reaffirming the greatness of our nation, we understand that greatness is neve
 
 #### For us, they did things
 
-For us, they packed up their few worldly possessions and traveled across oceans in search of a new life.
+1. For us, they packed up their few worldly possessions and traveled across oceans in search of a new life.
 
-For us, they toiled in sweatshops and settled the West; endured the lash of the whip and plowed the hard earth.
+2. For us, they toiled in sweatshops and settled the West; endured the lash of the whip and plowed the hard earth.
 
-For us, they fought and died, in places like Concord and Gettysburg; Normandy and Khe Sahn.
+3. For us, they fought and died, in places like Concord and Gettysburg; Normandy and Khe Sahn.
 
 ##### For us, they did things
 

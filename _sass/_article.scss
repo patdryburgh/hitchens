@@ -23,13 +23,18 @@ article h2 + p {
   text-indent: 0;
 }
 
-article p > img {
+article img {
   margin-left: -1em;
   display: flex;
   max-width: 100%;
   height: auto;
   margin: 2em auto;
 }
+
+article li {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+} 
 
 .article-meta {
   margin-bottom: 2em;
