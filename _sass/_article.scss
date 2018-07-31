@@ -14,8 +14,18 @@ article p {
   text-align: justify;
   text-indent: 1.5em;
   text-justify: inter-word;
-  &:first-of-type {
-    text-indent: 0;
+}
+
+article p:first-of-type {
+  text-indent: 0;
+}
+
+blockquote {
+  border-left: 4px solid $brand-color;
+  margin: 1em auto;
+  font-style: italic;
+  > * {
+    padding: 0 1.5em;
   }
 }
 

@@ -5,14 +5,11 @@ author: "Arthur Conan Doyle"
 categories: literature
 ---
 
-# The Adventure of the Cardboard Box
-by Arthur Conan Doyle
-
 In choosing a few typical cases which illustrate the remarkable mental qualities of my friend, Sherlock Holmes, I have endeavoured, as far as possible, to select those which presented the minimum of sensationalism, while offering a fair field for his talents. It is, however, unfortunately impossible entirely to separate the sensational from the criminal, and a chronicler is left in the dilemma that he must either sacrifice details which are essential to his statement and so give a false impression of the problem, or he must use matter which chance, and not choice, has provided him with. With this short preface I shall turn to my notes of what proved to be a strange, though a peculiarly terrible, chain of events.
 
 It was a blazing hot day in August. Baker Street was like an oven, and the glare of the sunlight upon the yellow brickwork of the house across the road was painful to the eye. It was hard to believe that these were the same walls which loomed so gloomily through the fogs of winter. Our blinds were half-drawn, and Holmes lay curled upon the sofa, reading and re-reading a letter which he had received by the morning post. For myself, my term of service in India had trained me to stand heat better than cold, and a thermometer at ninety was no hardship. But the morning paper was uninteresting. Parliament had risen. Everybody was out of town, and I yearned for the glades of the New Forest or the shingle of Southsea. A depleted bank account had caused me to postpone my holiday, and as to my companion, neither the country nor the sea presented the slightest attraction to him. He loved to lie in the very center of five millions of people, with his filaments stretching out and running through them, responsive to every little rumour or suspicion of unsolved crime. Appreciation of nature found no place among his many gifts, and his only change was when he turned his mind from the evil-doer of the town to track down his brother of the country.
 
-Finding that Holmes was too absorbed for conversation I had tossed side the barren paper, and leaning back in my chair I fell into a brown study. Suddenly my companion's voice broke in upon my thoughts:
+>Finding that Holmes was too absorbed for conversation I had tossed side the barren paper, and leaning back in my chair I fell into a brown study. Suddenly my companion's voice broke in upon my thoughts:
 
 “You are right, Watson,” said he. “It does seem a most preposterous way of settling a dispute.”
 

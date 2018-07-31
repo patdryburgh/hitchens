@@ -6,7 +6,6 @@ categories: literature
 author: Arthur Conan Doyle
 ---
 
-
 Mrs. Hudson, the landlady of Sherlock Holmes, was a long-suffering woman. Not only was her first-floor flat invaded at all hours by throngs of singular and often undesirable characters but her remarkable lodger showed an eccentricity and irregularity in his life which must have sorely tried her patience. His incredible untidiness, his addiction to music at strange hours, his occasional revolver practice within doors, his weird and often malodorous scientific experiments, and the atmosphere of violence and danger which hung around him made him the very worst tenant in London. On the other hand, his payments were princely. I have no doubt that the house might have been purchased at the price which Holmes paid for his rooms during the years that I was with him.
 
 The landlady stood in the deepest awe of him and never dared to interfere with him, however outrageous his proceedings might seem. She was fond of him, too, for he had a remarkable gentleness and courtesy in his dealings with women. He disliked and distrusted the sex, but he was always a chivalrous opponent. Knowing how genuine was her regard for him, I listened earnestly to her story when she came to my rooms in the second year of my married life and told me of the sad condition to which my poor friend was reduced.
