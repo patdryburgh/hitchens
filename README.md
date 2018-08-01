@@ -54,6 +54,14 @@ Be sure to start your `url`s with a `/`.
 
 A sparsely decorated layout designed to present long-form writing in a manner that's pleasing to read.
 
+### Credits
+
+The theme credits that appear at the bottom of each page can be turned off by including the following line in your site's `_config.yml` file:
+
+```
+hide_credits: true
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/patdryburgh/hitchens. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
