@@ -8,13 +8,13 @@ article > * {
 article > h1 {
   font-size: 2em;
   max-width: 48rem;
-  padding: 2em 0;
+  padding: 2em 1em;
   text-align: center;
 }
 
 article p {
   text-align: justify;
-  text-indent: 1.5em;
+  text-indent: 1.5rem;
   text-justify: inter-word;
 }
 
@@ -32,11 +32,11 @@ article img {
 }
 
 article li {
-  margin-left: 1.5em;
-  margin-right: 1.5em;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 } 
 
-.article-meta {
+.post-meta {
   margin-bottom: 2em;
   margin-top: 2em;
   text-align: right;
