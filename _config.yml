@@ -24,7 +24,6 @@ github_username:  patdryburgh
 
 # Build settings
 markdown: kramdown
-hide_credits: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
