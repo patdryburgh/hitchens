@@ -9,13 +9,13 @@ An inarguably well-designed Jekyll theme.
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "hitchens"
+gem "hitchens-theme"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: hitchens
+theme: hitchens-theme
 ```
 
 And then execute:
@@ -24,7 +24,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install hitchens
+    $ gem install hitchens-theme
 
 ## Usage
 
