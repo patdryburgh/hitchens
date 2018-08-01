@@ -62,6 +62,10 @@ The theme credits that appear at the bottom of each page can be turned off by in
 hide_credits: true
 ```
 
+### Font
+
+The theme includes a version of EB Garamond, designed by Georg Duffner and Octavio Pardo. A [copy of the license](https://github.com/patdryburgh/hitchens/blob/master/assets/fonts/OFL.txt) has been included in the `assets` folder and must be included with any distributions of this theme that include the EB Garamond font files.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/patdryburgh/hitchens. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
