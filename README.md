@@ -66,7 +66,7 @@ hide_credits: true
 
 The theme includes a version of EB Garamond, designed by Georg Duffner and Octavio Pardo. A [copy of the license](https://github.com/patdryburgh/hitchens/blob/master/assets/fonts/OFL.txt) has been included in the `assets` folder and must be included with any distributions of this theme that include the EB Garamond font files.
 
-## Contributing
+## Contributing & Requesting Features
 
 Bug reports, feature requests, and pull requests are welcome on GitHub at https://github.com/patdryburgh/hitchens.
 
