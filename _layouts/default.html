@@ -19,5 +19,13 @@
 
     {{ content }}
 
+    {% unless site.show_credits == "false" %}
+      <aside class="site-credits">
+        <p>
+          <small><a href="https://github.com/patdryburgh/hitchens">Hitchens Theme</a> powered by <a href="http://jekyllrb.com">Jekyll</a></small>
+        </p>
+      </aside>
+    {% endunless %}
+
   </body>
 </html>

@@ -54,6 +54,10 @@ blockquote.epigraph {
   font-style: italic;
 }
 
+small {
+  font-size: .75em;
+}
+
 p > cite {
   display: block;
   text-align: right;
@@ -122,4 +126,10 @@ hr {
   .post-link & {
     padding: .5em 0;
   }
+}
+
+.site-credits {
+  margin: 2em auto;
+  padding: 0 2em;
+  text-align: center;
 }
