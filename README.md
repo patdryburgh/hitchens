@@ -1,6 +1,6 @@
 # Hitchens
 
-![Hitchens Preview](https://raw.githubusercontent.com/patdryburgh/hitchens/master/assets/images/hitchens-preview.png?token=AAt3Zdd496iHt2EsGaZPS8kiJdtO-D2Zks5babOPwA%3D%3D)
+![Hitchens Preview](https://raw.githubusercontent.com/patdryburgh/hitchens/master/screenshot.png?token=AAt3ZQiWog3NMOcTFnTp6ZGzirPSnoWVks5bayFOwA%3D%3D)
 
 An inarguably well-designed Jekyll theme.
 
