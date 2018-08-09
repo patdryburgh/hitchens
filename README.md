@@ -51,6 +51,25 @@ To include navigation in your site's masthead:
 
 Be sure to start your `url`s with a `/`.
 
+## Pagination
+
+To paginate your posts, add the following line to your site's `Gemfile`:
+
+```
+gem "jekyll-paginate"
+```
+
+Then, add the following lines to your site's `_config.yml` file:
+
+```
+plugins:
+  - jekyll-paginate
+
+paginate: 20
+paginate_path: "/page/:num/"
+```
+
+You can set the `paginate` and `paginate_path` settings to whatever best suits you.
 
 ### Post Layout
 
