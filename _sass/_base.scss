@@ -87,35 +87,6 @@ hr {
   text-align: center;
 }
 
-.post-list {
-  margin: 1em 0;
-  list-style: none;
-}
-
-.post-link {
-  color: $text-color;
-  display: flex;
-  flex-direction: column-reverse;
-  text-decoration: none;
-  padding: .25em 0;
-  .post-title {
-    display: block;
-    padding: .25em 0;
-  }
-  &:hover .post-title,
-  &:focus .post-title {
-    text-decoration: underline;
-  }
-  @media (min-width: $on-tablet) {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    .post-title {
-      margin-right: 4em;
-    }
-  }
-}
-
 .post-date {
   color: $muted-text-color;
   display: block;

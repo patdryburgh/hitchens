@@ -1,0 +1,48 @@
+.post-list {
+  margin: 1em 0;
+  list-style: none;
+}
+
+.post-link {
+  color: $text-color;
+  display: flex;
+  flex-direction: column-reverse;
+  text-decoration: none;
+  padding: .25em 0;
+  .post-title {
+    display: block;
+    padding: .25em 0;
+  }
+  &:hover .post-title,
+  &:focus .post-title {
+    text-decoration: underline;
+  }
+  @media (min-width: $on-tablet) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .post-title {
+      margin-right: 4em;
+    }
+  }
+}
+
+.post-pagination {
+  margin-top: 4rem;
+  font-size: .75em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  * > {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
