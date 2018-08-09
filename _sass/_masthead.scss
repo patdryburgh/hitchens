@@ -13,7 +13,7 @@
 
 .site-masthead h1 {
   font-size: 3em;
-  margin-bottom: .125em;
+  margin-bottom: 0;
   @media (min-width: $on-tablet) {
     font-size: 6em;
   }
@@ -29,10 +29,7 @@
 }
 
 .site-navigation {
-  position: absolute;
-  bottom: .75em;
-  left: 2em;
-  right: 2em;
+  margin-top: 4rem;
 }
 
 .site-navigation ul {
@@ -53,4 +50,8 @@
   display: block;
   padding: .25em .5em;
   text-decoration: none;
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
 }
