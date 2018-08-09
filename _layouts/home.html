@@ -23,9 +23,15 @@ layout: default
         <ul>
         {% for item in site.data.menu %}
           <li>
-            <a href="{{ item.url | prepend: baseurl }}">
-              {{ item.title }}
-            </a>
+            {% if item.url contains 'http' %}
+              <a href="{{ item.url }}">
+                {{ item.title }}
+              </a>
+            {% else %}
+              <a href="{{ item.url | prepend: site.baseurl }}">
+                {{ item.title }}
+              </a>
+            {% endif %}
           </li>
         {% endfor %}
         </ul>
