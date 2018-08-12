@@ -38,3 +38,4 @@ markdown: kramdown
 #   - vendor/ruby/
 
 show_excerpts: true
+excerpt_length: 0
