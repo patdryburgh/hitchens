@@ -38,7 +38,7 @@ layout: default
       {% endfor %}
     </ul>
 
-    {% if paginator.page > 1 %}
+    {% if paginator.total_pages > 1 %}
 
       <div class="post-pagination">
         {% if paginator.next_page %}
