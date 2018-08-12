@@ -3,6 +3,10 @@
   list-style: none;
 }
 
+.post-list li {
+  margin-bottom: 1em;
+}
+
 .post-link {
   color: $text-color;
   display: flex;
@@ -22,7 +26,9 @@
 .post-link__heading {
   display: block;
   margin-right: 4em;
-  padding: .25em 0;
+  @media (min-width: $on-tablet) {
+    padding: .25em 0;
+  }
 }
 
 .post-link__title + .post-link__excerpt {
