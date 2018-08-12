@@ -110,6 +110,12 @@ Note that setting `excerpt_length` in your site's `_config.yml` file will set th
 
 A sparsely decorated layout designed to present long-form writing in a manner that's pleasing to read.
 
+To use the post layout, add the following to your post's [front matter](https://jekyllrb.com/docs/frontmatter/):
+
+```
+layout: post
+```
+
 ### Credits
 
 The theme credits that appear at the bottom of each page can be turned off by including the following line in your site's `_config.yml` file:
