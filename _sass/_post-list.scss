@@ -9,25 +9,24 @@
   flex-direction: column-reverse;
   text-decoration: none;
   padding: .25em 0;
-  .post-title {
-    display: block;
-    padding: .25em 0;
-  }
-  &:hover .post-title,
-  &:focus .post-title {
-    text-decoration: underline;
-  }
   @media (min-width: $on-tablet) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    .post-title {
-      margin-right: 4em;
-    }
     .post-date {
       margin-left: auto;
     }
   }
+}
+
+.post-link__heading {
+  display: block;
+  margin-right: 4em;
+  padding: .25em 0;
+}
+
+.post-link__title + .post-link__excerpt {
+  opacity: .6;
 }
 
 .post-pagination {

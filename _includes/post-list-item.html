@@ -1,24 +1,17 @@
-{% capture excerpt %}
-  {{ post.excerpt | replace: "<p>", "" | replace: "</p>", "" }}
-{% endcapture %}
-
-{% assign excerpt_length = excerpt | size %}
-
 <li>
   <a href="{{ post.url | absolute_url }}" class="post-link">
-    {% unless post.title == "" %}
-      <span class="post-title">
-        {{ post.title }}
-      </span>
-    {% else %}
-      <span class="post-title">
-        {% if excerpt_length > 140 %}
-          {{ excerpt | truncatewords: 12, '…' }}
-        {% else %}
-          {{ excerpt }}
-        {% endif %}
-      </span>
-    {% endunless %}
+    <div class="post-link__heading">
+      {% unless post.title == "" %}
+          <h1 class="post-link__title">      
+            {{ post.title }}
+          </h1>
+      {% else %}
+        {% include post-excerpt.html %}
+      {% endunless %}
+      {% if post.title != "" and site.show_excerpts == true %}
+        {% include post-excerpt.html %}
+      {% endif %}
+    </div>
     <span class="post-date">
       {{ post.date | date: "%b %-d, '%y" }}
     </span>
