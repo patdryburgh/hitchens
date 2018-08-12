@@ -37,5 +37,8 @@ markdown: kramdown
 #   - vendor/gems/
 #   - vendor/ruby/
 
-show_excerpts: true
-excerpt_length: 20
+plugins:
+  - jekyll-paginate
+
+paginate: 20
+paginate_path: "/page/:num/"
