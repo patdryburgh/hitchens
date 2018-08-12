@@ -14,7 +14,7 @@
 
 .post p {
   text-align: justify;
-  text-indent: 1.5rem;
+  text-indent: 1.5em;
   text-justify: inter-word;
 }
 
@@ -23,12 +23,8 @@
   text-indent: 0;
 }
 
-.post img {
+.post p img {
   margin-left: -1em;
-  display: flex;
-  max-width: 100%;
-  height: auto;
-  margin: 2em auto;
 }
 
 .post li {
