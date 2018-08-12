@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% assign menu = site.data.menu %}
-
 {% if site.paginate and site.paginate_path and paginator.page > 1 %}
   {% include back-link.html %}
 {% else %}
@@ -18,31 +16,13 @@ layout: default
         {{ site.description }}
       </h2>
     {% endif %}
-    {% if menu %}
-      <nav class="site-navigation">
-        <ul>
-        {% for item in site.data.menu %}
-          <li>
-            {% if item.url contains 'http' %}
-              <a href="{{ item.url }}">
-                {{ item.title }}
-              </a>
-            {% else %}
-              <a href="{{ item.url | prepend: site.baseurl }}">
-                {{ item.title }}
-              </a>
-            {% endif %}
-          </li>
-        {% endfor %}
-        </ul>
-      </nav>
-    {% endif %}
+    {% include menu.html %}
   </header>
 {% endif %}
 
 <main class="home" aria-label="Content">
 
-  <h1 class="divided">
+  <h1 class="content-title divided">
     {% if site.paginate and site.paginate_path and paginator.page > 1 %}
       Page {{ paginator.page }}
     {% else %}
@@ -54,16 +34,7 @@ layout: default
     
     <ul class="post-list">
       {% for post in paginator.posts %}
-        <li>
-          <a href="{{ post.url | absolute_url }}" class="post-link">
-            <span class="post-title">
-              {{ post.title }}
-            </span>
-            <span class="post-date">
-              {{ post.date | date: "%b %-d, '%y" }}
-            </span>
-          </a>
-        </li>
+        {% include post-list-item.html %}
       {% endfor %}
     </ul>
 
@@ -89,16 +60,7 @@ layout: default
 
     <ul class="post-list">
       {% for post in site.posts %}
-        <li>
-          <a href="{{ post.url | absolute_url }}" class="post-link">
-            <span class="post-title">
-              {{ post.title }}
-            </span>
-            <span class="post-date">
-              {{ post.date | date: "%b %-d, '%y" }}
-            </span>
-          </a>
-        </li>
+        {% include post-list-item.html %}
       {% endfor %}
     </ul>
   
