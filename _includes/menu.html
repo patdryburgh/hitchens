@@ -3,8 +3,13 @@
 {% if menu %}
   <nav class="site-navigation">
     <ul>
-    {% for item in site.data.menu %}
       <li>
+        <a href="{{ '/' | prepend: site.baseurl }}">
+          Home
+        </a>
+      </li>
+    {% for item in site.data.menu %}
+      <li {% if page.url == item.url %}class="active"{% endif %}>
         {% if item.url contains 'http' %}
           <a href="{{ item.url }}">
             {{ item.title }}
