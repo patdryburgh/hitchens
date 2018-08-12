@@ -46,7 +46,10 @@ To include navigation in your site's masthead:
 
 ```
 - title: About
-  url: /about
+  url: /about.html
+
+- title: Source
+  url: https://github.com/patdryburgh/hitchens
 ```
 
 Be sure to start your `url`s with a `/`.
