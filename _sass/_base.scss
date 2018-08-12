@@ -54,7 +54,7 @@ blockquote {
   margin: 2em auto;
   opacity: .8;
   > * {
-    padding: 0 1.5em;
+    padding: 0 3em;
   }
 }
 
@@ -76,6 +76,25 @@ hr {
   height: 0;
   @include divider;
   margin: 4em 0;
+}
+
+img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  margin: 2em auto;
+}
+
+figure img {
+  margin: 2em auto 1em;
+}
+
+figcaption {
+  font-size: .875em;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 2em;
+  opacity: .7;
 }
 
 .divided::after {
