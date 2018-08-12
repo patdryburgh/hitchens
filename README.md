@@ -51,7 +51,7 @@ To include navigation in your site's masthead:
 
 Be sure to start your `url`s with a `/`.
 
-## Pagination
+#### Pagination
 
 To paginate your posts, add the following line to your site's `Gemfile`:
 
@@ -70,6 +70,41 @@ paginate_path: "/page/:num/"
 ```
 
 You can set the `paginate` and `paginate_path` settings to whatever best suits you.
+
+#### Excerpts
+
+To show [excerpts](https://jekyllrb.com/docs/posts/#post-excerpts) of your blog posts on the home page, add the following settings to your site's `_config.yml` file:
+
+```
+show_excerpts: true
+```
+
+By default, excerpts that have more than 140 characters will be truncated to 20 words. In order to override the number of words you'd like to show for your excerpts, add the following setting to your site's `_config.yml` file:
+
+```
+excerpt_length: 20
+```
+
+To disable excerpt truncation entirely, simply set `excerpt_length` to `0` in your site's `_config.yml` file, like so:
+
+```
+excerpt_length: 0
+```
+
+If you do this, the theme will still respect Jekyll's `excerpt_separator` feature as [described in the Jekyll documentation](https://jekyllrb.com/docs/posts/#post-excerpts).
+
+
+#### Title-less Posts
+
+If you want to publish posts that don't have a title, add the following setting to the [front matter](https://jekyllrb.com/docs/frontmatter/) of the post:
+
+```
+title: ""
+```
+
+When you do this, the home page will display a truncated [excerpt](https://jekyllrb.com/docs/posts/#post-excerpts) of the first paragraph of your post.
+
+Note that setting `excerpt_length` in your site's `_config.yml` file will set the length of _all_ excerpts, regardless of whether the post has a title or not. For posts with a title, the excerpt will appear under the title and slightly lighter. For title-less posts, the excerpt will appear as if it were a title.
 
 ### Post Layout
 
