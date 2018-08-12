@@ -1,0 +1,21 @@
+{% assign menu = site.data.menu %}
+
+{% if menu %}
+  <nav class="site-navigation">
+    <ul>
+    {% for item in site.data.menu %}
+      <li>
+        {% if item.url contains 'http' %}
+          <a href="{{ item.url }}">
+            {{ item.title }}
+          </a>
+        {% else %}
+          <a href="{{ item.url | prepend: site.baseurl }}">
+            {{ item.title }}
+          </a>
+        {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  </nav>
+{% endif %}

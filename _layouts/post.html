@@ -6,9 +6,11 @@ layout: default
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="post-title divided p-name" itemprop="name headline">
-    {{ page.title }}
-  </h1>
+  {% unless page.title == "" %}
+    <h1 class="post-title divided p-name" itemprop="name headline">
+      {{ page.title }}
+    </h1>
+  {% endunless %}
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
