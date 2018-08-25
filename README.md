@@ -136,6 +136,20 @@ To use the post layout, add the following to your post's [front matter](https://
 layout: post
 ```
 
+### Icons
+
+
+
+The [JSON Feed spec](https://jsonfeed.org/version/1) states that feeds should include an icon. To add your icon, add the following line in your site's `_config.yml` file:
+
+```
+feed_icon: /assets/images/icon-512.png
+```
+
+Then, replace the `/assets/images/icon-512.png` file with your own image.
+
+
+
 ### Credits
 
 The theme credits that appear at the bottom of each page can be turned off by including the following line in your site's `_config.yml` file:
@@ -154,7 +168,7 @@ A [copy of the license](https://github.com/patdryburgh/hitchens/blob/master/asse
 
 ## Contributing & Requesting Features
 
-Bug reports, feature requests, and pull requests are welcome on GitHub at https://github.com/patdryburgh/hitchens.
+Bug reports, feature requests, and pull requests are welcome on GitHub at [https://github.com/patdryburgh/hitchens](https://github.com/patdryburgh/hitchens).
 
 This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
@@ -166,5 +180,4 @@ The theme is setup just like a normal Jekyll site. To test the theme, run `bundl
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
+The code for this theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
