@@ -9,9 +9,23 @@ An inarguably well-designed [Jekyll](http://jekyllrb.com) theme.
 
 Undoubtably one of the great minds of our time, [Christopher Hitchens](https://en.wikipedia.org/wiki/Christopher_Hitchens) challenged his readers to think deeply on topics of politics, religion, war, and science. This Jekyll theme's design is inspired by the trade paperback version his book, [Arguably](https://en.wikipedia.org/wiki/Arguably), and is dedicated to his memory.
 
-## Installation
+## Quick Start
 
-Add this line to your Jekyll site's `Gemfile`:
+This theme is, itself, a Jekyll blog, meaning the code base you see has everything you need to run a Jekyll powered blog!
+
+To get started quickly, follow the instructions below:
+
+<iframe src="https://ghbtns.com/github-btn.html?user=patdryburgh&repo=hitchens&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+
+1. Click the `Fork` button above;
+2. Go to your forked repo's `Settings` screen;
+3. Scroll down to the `GitHub Pages` section;
+4. Under `Source`, select the `Master` branch;
+5. Hit `Save`.
+
+## Manual Installation
+
+If you're comfortable in the command line, add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
 gem "hitchens-theme"
