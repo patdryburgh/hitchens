@@ -15,9 +15,7 @@ This theme is, itself, a Jekyll blog, meaning the code base you see has everythi
 
 To get started quickly, follow the instructions below:
 
-<iframe src="https://ghbtns.com/github-btn.html?user=patdryburgh&repo=hitchens&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
-
-1. Click the `Fork` button above;
+1. Click the `Fork` button at the top of [the repository](https://github.com/patdryburgh/hitchens/);
 2. Go to your forked repo's `Settings` screen;
 3. Scroll down to the `GitHub Pages` section;
 4. Under `Source`, select the `Master` branch;
