@@ -1,0 +1,32 @@
+.footnote {
+  border: 1px solid $muted-text-color;
+  border-radius: 1em;
+  color: $text-color;
+  display: inline;
+  font-size: .75em;
+  font-weight: 700;
+  padding: 0 .75em;
+  text-decoration: none;
+  margin: 0 .25em;
+  &:hover,
+  &:focus {
+    background: $brand-color;
+    border-color: $brand-color;
+  }
+}
+
+.footnotes:before,
+.footnotes:after {
+  content: '';
+  @include divider;
+  margin: 4em auto;
+}
+
+.footnotes li {
+  margin-bottom: 1em;
+}
+
+.reversefootnote {
+  font-size: .75em;
+  opacity: .75;
+}
