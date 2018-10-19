@@ -26,7 +26,7 @@ layout: null
             "author": {
                 "name": "{{ post.author }}"
             }
-        }
+        }{% if forloop.last == false %},{% endif %}
         {% endunless %}
     {% endfor %}
     ]
