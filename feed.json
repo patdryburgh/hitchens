@@ -26,6 +26,7 @@ layout: null
             "author": {
                 "name": "{{ post.author }}"
             }
+        }
         {% endunless %}
     {% endfor %}
     ]
