@@ -15,8 +15,7 @@
   }
 }
 
-.footnotes:before,
-.footnotes:after {
+.footnotes::before {
   content: '';
   @include divider;
   margin: 4em auto;
