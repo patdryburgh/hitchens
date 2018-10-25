@@ -13,6 +13,10 @@
   flex-direction: column-reverse;
   text-decoration: none;
   padding: .25em;
+  &:hover,
+  &:focus {
+    background: $highlight;
+  }
   @media (min-width: $on-tablet) {
     display: flex;
     flex-direction: row;

@@ -55,10 +55,6 @@ a {
   color: $text-color;
 }
 
-a:hover {
-  background: $highlight;
-}
-
 a:focus {
   outline: 1px dashed $text-color;
 }
