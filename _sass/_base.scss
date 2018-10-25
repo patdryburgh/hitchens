@@ -55,6 +55,10 @@ a {
   color: $text-color;
 }
 
+a:focus {
+  outline: 1px dashed $text-color;
+}
+
 blockquote {
   margin: 2em auto;
   opacity: .8;
@@ -134,4 +138,24 @@ figcaption {
   margin: 0 auto 2em;
   padding: 0 2em;
   text-align: center;
+}
+
+.skip-navigation {
+  background: $brand-color;
+  border: 1px dashed transparent;
+  display: block;
+  font-size: .875em;
+  font-weight: 700;
+  margin-top: -2.625rem;
+  padding: .5rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .125s ease-in-out;
+  &:hover,
+  &:focus {
+    background: darken($brand-color, 2.5%);
+    border-color: $text-color;
+    margin-top: 0;
+  }
 }
