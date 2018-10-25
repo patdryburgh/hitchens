@@ -23,10 +23,16 @@
   text-indent: 0;
 }
 
+.post dl,
+.post ul,
+.post ol {
+  margin: 1.5em;
+}
+
 .post li {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-} 
+}
 
 .post-content:first-child {
   margin-top: 4em;
