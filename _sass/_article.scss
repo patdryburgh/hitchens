@@ -23,6 +23,10 @@
   text-indent: 0;
 }
 
+.post a:hover {
+  background: $highlight;
+}
+
 .post dl,
 .post ul,
 .post ol {
