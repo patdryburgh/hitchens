@@ -31,6 +31,10 @@
 
     {{ content }}
 
+    {% unless site.hide_search %}
+      {% include search.html %}
+    {% endunless %}
+
     {% include menu.html %}
 
     {% unless site.hide_credits %}

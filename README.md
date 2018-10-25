@@ -136,8 +136,6 @@ layout: post
 
 ### Icons
 
-
-
 The [JSON Feed spec](https://jsonfeed.org/version/1) states that feeds should include an icon. To add your icon, add the following line in your site's `_config.yml` file:
 
 ```
@@ -146,14 +144,20 @@ feed_icon: /assets/images/icon-512.png
 
 Then, replace the `/assets/images/icon-512.png` file with your own image.
 
-
-
 ### Credits
 
 The theme credits that appear at the bottom of each page can be turned off by including the following line in your site's `_config.yml` file:
 
 ```
 hide_credits: true
+```
+
+### Search
+
+The theme uses a [custom DuckDuckGo Search Form](https://patdryburgh.com/blog/adding-a-custom-duckduckgo-search-bar-to-your-site/) that can be turned off by including the following line in your site's `_config.yml` file: 
+
+```
+hide_search: true
 ```
 
 ### Font
