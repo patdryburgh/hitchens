@@ -1,6 +1,12 @@
 .post-list {
   margin: 1em 0;
   list-style: none;
+  &:hover,
+  &:focus-within {
+    .post-link {
+      opacity: .6;
+    }
+  }
 }
 
 .post-list li {
@@ -13,9 +19,10 @@
   flex-direction: column-reverse;
   text-decoration: none;
   padding: .25em;
+  transition: opacity .125s ease-in-out;
   &:hover,
   &:focus {
-    background: $highlight;
+    opacity: 1 !important;
   }
   @media (min-width: $on-tablet) {
     display: flex;
@@ -56,12 +63,19 @@
     flex-basis: 0;
     padding: 1em 0;
   }
+  &:hover,
+  &:focus-within {
+    a {
+      opacity: .6;
+    }
+  }
   a {
     text-decoration: none;
     text-transform: uppercase;
+    transition: opacity .125s ease-in-out;
     &:hover,
     &:focus {
-      text-decoration: underline;
+      opacity: 1;
     }
   }
 }
