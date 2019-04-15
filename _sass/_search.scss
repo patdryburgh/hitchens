@@ -5,6 +5,7 @@
 }
 
 #search__input {
+  background: transparent;
   border: 0;
   font: 1em $font-family;
   padding: .5em;
@@ -17,4 +18,17 @@
 
 #search button[type="submit"] {
   display: none;
+}
+
+::-webkit-input-placeholder {
+  color: $muted-text-color;
+}
+::-moz-placeholder {
+  color: $muted-text-color;
+}
+:-ms-input-placeholder {
+  color: $muted-text-color;
+}
+:-moz-placeholder {
+  color: $muted-text-color;
 }
