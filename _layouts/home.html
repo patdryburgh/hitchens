@@ -8,6 +8,7 @@ layout: default
   {% include back-link.html %}
 {% else %}
   <header class="site-masthead">
+    {% include menu.html %}
     {% if site.title %}
       <h1>
         {{ site.title }}
@@ -18,7 +19,6 @@ layout: default
         {{ site.description }}
       </h2>
     {% endif %}
-    {% include menu.html %}
   </header>
 {% endif %}
 

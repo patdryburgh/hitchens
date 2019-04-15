@@ -1,23 +1,14 @@
 .site-masthead {
-  background: $brand-color;
   box-sizing: border-box;
-  min-height: 50vh;
-  padding: 2em;
+  padding: 0 2em;
   position: relative;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
-  @media screen and (min-width: $on-laptop) {
-    padding: 6em 2em;
-  } 
 }
 
 .site-masthead h1 {
   font-size: 3em;
   margin-bottom: 0;
-  margin-top: 0;
+  margin-top: 1em;
   @media (min-width: $on-tablet) {
     font-size: 6em;
   }
