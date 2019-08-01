@@ -8,6 +8,8 @@
     
     <title>{{ site.title }}{% if page.title and page.title != "" %} &mdash; {{ page.title }}{% endif %}</title>
 
+    {% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}  
+
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}?{{ site.time | date: '%s%N' }}">
 
     <link rel="apple-touch-icon" href="{{ site.icon }}">
