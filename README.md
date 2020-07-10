@@ -26,7 +26,7 @@ To get started quickly, follow the instructions below:
 If you're comfortable in the command line, add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "hitchens-theme"
+gem install "hitchens-theme"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
