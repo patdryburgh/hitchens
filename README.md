@@ -20,26 +20,33 @@ To get started quickly, follow the instructions below:
 3. Scroll down to the `GitHub Pages` section;
 4. Under `Source`, select the `Master` branch;
 5. Hit `Save`.
+6. Follow [Jekyll's instructions to configure your new Jekyll site](https://jekyllrb.com/docs/configuration/).
 
 ## Manual Installation
 
-If you're comfortable in the command line, add this line to your Jekyll site's `Gemfile`:
+If you've already created your Jekyll site or are comfortable with the command line, you can follow [Jekyll's Quickstart instructions](https://jekyllrb.com/docs/) add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
 gem "hitchens-theme"
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+And add the following lines to your Jekyll site's `_config.yml`:
 
 ```yaml
 theme: hitchens-theme
 ```
 
-And then execute:
+Depending on your [site's configuration](https://jekyllrb.com/docs/configuration/options/), you may also need to add:
+
+```yaml
+ignore_theme_config: true
+```
+
+And then on the command line, execute:
 
     $ bundle
 
-Or install it yourself as:
+Or install the theme yourself as:
 
     $ gem install hitchens-theme
 
@@ -47,13 +54,13 @@ Or install it yourself as:
 
 ### Home Layout
 
-The `home` layout presents a list of articles ordered chronologically. All articles are presented in one page, similar to a book's table of contents.
+The `home` layout presents a list of articles ordered chronologically. The theme uses [Jekyll's built-in pagination](https://jekyllrb.com/docs/pagination/#enable-pagination) which can be configured in your `_config.yml` file.
 
 The masthead of the home page is derived from the `title` and `description` set in your site's `_config.yml` file.
 
 #### Navigation
 
-To include navigation in your site's masthead:
+To include a navigation menu in your site's masthead and footer:
 
 1. Create a `_data` directory in the root of your site.
 2. Add a `menu.yml` file to the `_data` directory.
@@ -154,7 +161,7 @@ hide_credits: true
 
 ### Search
 
-The theme uses a [custom DuckDuckGo Search Form](https://patdryburgh.com/blog/adding-a-custom-duckduckgo-search-bar-to-your-site/) that can be turned off by including the following line in your site's `_config.yml` file: 
+The theme uses a [custom DuckDuckGo Search Form](https://ddg.patdryburgh.com) that can be turned off by including the following line in your site's `_config.yml` file: 
 
 ```
 hide_search: true
@@ -182,7 +189,7 @@ The theme is setup just like a normal Jekyll site. To test the theme, run `bundl
 
 ## License
 
-The code for this theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT). 
+The code for this theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 The font, EB Garamond, is Copyright 2017 The EB Garamond Project Authors and licensed under the [SIL Open Font License Version 1.1](https://github.com/patdryburgh/hitchens/blob/master/assets/fonts/OFL.txt).
 
