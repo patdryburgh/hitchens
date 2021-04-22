@@ -1,8 +1,17 @@
 /* eb-garamond-regular - latin */
 
+@font-face{
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-display: auto;
+  src:
+  url('#{$asset_url}/fonts/Nanum_Myeongjo-Regular.ttf') format('ttf');
+}
+
 @font-face {
   font-family: 'Noto Serif KR', serif;
-  font-stule: normal;
+  font-style: normal;
   font-weight: 400;
   font-display: auto;
   src: 
