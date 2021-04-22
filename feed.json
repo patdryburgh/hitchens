@@ -8,7 +8,7 @@ layout: null
     "feed_url": "{{ "/feed.json" | absolute_url }}",
     "description": {{ site.description | jsonify }},
     "icon": "{{ site.icon | absolute_url }}",
-    "favicon": "{{ "/favicon.ico" | absolute_url }}",
+    "favicon": "{{ "/haeumm.ico" | absolute_url }}",
     "expired": false,
     "items": [
     {% for post in site.posts limit: 15 %}
