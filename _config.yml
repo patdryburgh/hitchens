@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   happy haeeun
 baseurl: "/hitchens" # the subpath of your site, e.g. /blog
 url: "https://dhrgodms.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-icon: https://dhrgodms.github.io/hitchens/assets/images/icon-512.png
+icon: https://dhrgodms.github.io/hitchens/assets/images/haeumm.png
 twitter_username: patdryburgh
 github_username:  dhrgdoms
 
@@ -43,3 +43,6 @@ plugins:
 
 paginate: 3
 paginate_path: "/page/:num/"
+
+gems:
+  -jemoji

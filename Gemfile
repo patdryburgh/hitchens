@@ -5,3 +5,4 @@ gemspec
 
 # for demo site
 gem "jekyll-paginate"
+gem 'jemoji'
