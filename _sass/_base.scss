@@ -1,13 +1,13 @@
 body {
   background: $brand-color;
-  color: $text-color;
+  color: white;
   font-family: $font-family;
   font-size: 1.3125em;
   line-height: 1.5;
 }
 
 h1 {
-  font: 'EB Garamond';
+  font: 'Nanum Myeongjo';
   font-size: 3em;
   margin: .5em auto;
 }
@@ -55,6 +55,10 @@ strong {
 
 a {
   color: white;
+}
+
+a.pagination-next btn{
+  color: $muted-text-color;
 }
 
 a:focus {
@@ -112,7 +116,10 @@ figcaption {
   content: "";
   @include divider;
 }
-
+.divided_w::after {
+  content: "";
+  @include divider_white;
+}
 .home {
   max-width: 24em;
   margin: auto;
