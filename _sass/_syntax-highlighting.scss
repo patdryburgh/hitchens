@@ -4,7 +4,7 @@
 
 code.highlighter-rouge {
   background: $highlight;
-  font-family: courier, monospace;
+  font-family: "Nanum Myeongjo", courier, monospace;
   font-size: .875em;
 }
 
@@ -73,7 +73,7 @@ code.highlighter-rouge {
   .sh    { color: #d14 } // Literal.String.Heredoc
   .si    { color: #d14 } // Literal.String.Interpol
   .sx    { color: #d14 } // Literal.String.Other
-  .sr    { color: #009926 } // Literal.String.Regex
+  .sr    { color: #538042 } // Literal.String.Regex
   .s1    { color: #d14 } // Literal.String.Single
   .ss    { color: #990073 } // Literal.String.Symbol
   .bp    { color: #999 } // Name.Builtin.Pseudo

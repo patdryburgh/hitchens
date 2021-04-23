@@ -4,34 +4,34 @@ title: About
 ---
 
 ## haeeumm🌊
----
-### 자기소개
+
+![profile](https://dhrgodms.github.io/hitchens/assets/images/citrus_garden.jpg)
+
+### 〰️자기소개〰️
+
 - 이름 : 옥해은
 - 학번 : 2019108268
 - 학과 : 컴퓨터공학전공
 - 관심분야 : 블록체인
 - https://github.com/dhrgodms
 
-> ##### 다양한 분야에 관심이 많아서, 하나하나 직접 경험해보며 흥미와 적성이 타협하는 지점을 찾아가고 있습니다.
+> ##### `컴퓨터, 영화, 음악, 만년필, 글과 그림, 바다를 좋아합니다.`
+<br><br>
 
----
-
-
-### 참여한 프로젝트
+### 〰️참여한 프로젝트〰️
 
   - [books_2020](https://github.com/dhrgodms/books_2020)
     - **도서 가격 비교 및 견적서 출력 사이트**
     - 도서 구매 사이트들을의 정보를 비교할 수 있게 하고, 견적서를 만들어주는 것을 목표로 하는 사이트를 캡스톤디자인 프로젝트로 만들었습니다. node js를 이용하여 도서 정보를 크롤링하는 작업을 하였습니다.
 
 
-  - [mekkera_development](https://github.com/dhrgodms/mekkera_development)
+ - [mekkera_development](https://github.com/dhrgodms/mekkera_development)
     - **메깨라 제주**
     - 제주의 문화를 녹인 RPG 게임을 만드는 프로젝트에 참여하였습니다. 유니티를 이용하여 개발하였고, 기획, 디자인, 개발에 참여하였습니다.
     - github에 대한 이해 없이 주먹구구식으로 만든 프로그램이다보니 부족한 점이 많습니다. 오픈소스개발론을 통해 github를 바르게 사용하는 방법을 익히고, 이 게임을 체계적으로 개선하고 싶습니다.
 
----
 
-### 관심저장소 Fork 목록
+### 〰️관심저장소 Fork 목록〰️
 
   - [React](https://github.com/dhrgodms/react)
     - 앞으로도 지속적으로 사용되고, 더 개발자에게 편리하게 발전될 라이브러리라고 생각하여 관심저장소로 fork 해보았습니다.
