@@ -54,7 +54,7 @@ strong {
 }
 
 a {
-  color: rgb(187, 175, 15);
+  color: rgb(199, 188, 32);
 }
 
 a.link{
@@ -122,10 +122,6 @@ figcaption {
   @include divider;
 }
 
-.divided_w::after {
-  content: "";
-  @include divider_white;
-}
 .home {
   max-width: 24em;
   margin: auto;
