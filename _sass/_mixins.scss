@@ -6,11 +6,3 @@
   margin: .5em auto 0;
   background: url(#{$asset_url}/images/divider.svg) no-repeat top center;
 }
-@mixin divider_white {
-  border: 0;
-  display: block;
-  width: 200px;
-  height: 12px;
-  margin: .5em auto 0;
-  background: url(#{$asset_url}/images/divider_white.svg) no-repeat top center;
-}
