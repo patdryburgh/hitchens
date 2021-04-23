@@ -1,6 +1,6 @@
 body {
   background: $brand-color;
-  color: white;
+  color: rgb(212, 200, 20);
   font-family: $font-family;
   font-size: 1.3125em;
   line-height: 1.5;
@@ -54,7 +54,11 @@ strong {
 }
 
 a {
-  color: white;
+  color: rgb(0, 0, 0);
+}
+
+a.link{
+  color: #203111;
 }
 
 a.pagination-next btn{
@@ -91,6 +95,7 @@ hr {
   height: 0;
   @include divider;
   margin: 4em 0;
+  text-align: center;
 }
 
 img {
@@ -116,6 +121,7 @@ figcaption {
   content: "";
   @include divider;
 }
+
 .divided_w::after {
   content: "";
   @include divider_white;
