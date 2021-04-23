@@ -6,10 +6,9 @@ layout: post
 ---
 
 
-### 📽️🎞️📽Favorite Movies
-## 나의 인생 영화
+### 📽️🎞️나의 인생 영화
 
-### 1. 이터널 선샤인(Eternal Sunshine of the spotless mind)
+### **1. 이터널 선샤인(Eternal Sunshine of the spotless mind)**
 
 ![eternal sunshine](https://www.imdb.com/title/tt0338013/mediaviewer/rm2954530560?ref_=tt_ov_i) 
 
@@ -19,7 +18,7 @@ layout: post
 <br><br>
 
 
-### 2. 기생충(Parasite)
+### **2. 기생충(Parasite)**
 
 ![parasite](https://ko.wikipedia.org/wiki/%EA%B8%B0%EC%83%9D%EC%B6%A9_(%EC%98%81%ED%99%94)#/media/%ED%8C%8C%EC%9D%BC:%EA%B8%B0%EC%83%9D%EC%B6%A9_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg)
 
@@ -27,7 +26,7 @@ layout: post
 
 <br><br>
 
-### 3. 소공녀(Microhabitat)
+### **3. 소공녀(Microhabitat)**
 
 ![소공녀](https://namu.wiki/jump/%2FPStvtmIFu5tvOXA%2FdowlCms5NiBh3ZnoPilW6%2BTeIiattYdogFYeiOkKhlnqwJf)
 
