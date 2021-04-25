@@ -28,6 +28,6 @@ layout: post
 
 ### **3. 소공녀(Microhabitat)**
 
-![소공녀](https://lh3.googleusercontent.com/proxy/ijizFRyjaP8Sv1BDT16TI8y5PDH4HYDYXQTQS99iBPubceJ1iLDfIHh8tQEk-qguFtGexAR2RYTt3KQdsbgsvnXbcQUeJTu5pkAmtklPjWKPky1vFPDTB-6DFn9lrM_eMUgxB7KqpAWdIRBGxQ2fiZ7-lVnLp7NuE0hpaaifHbxCQ19sOJZK-enfKSm3GyL09Cq1VMjrkfVfaNI2XhVoSa8JTrT7VhTD2lyGmhDTVRo-SKFV68HkQlgnWkvi_FyQ43qHvNoXq5PiOLkVzqpsVw7izmEJw09pgYg4FLL5wlb-M2g)
+![소공녀](http://img.movist.com/?img=/x00/05/02/84_p1.jpg)
 
 `낭만이 있다면 어디든 여행지. 비단 집이 있어야 완성되는 것은 낭만이 아니다. 비록 현실은 위태롭더라도 마음 속은 낭만이 흘러넘친다.`
