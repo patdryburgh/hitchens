@@ -31,24 +31,16 @@ categories: opinion
 - Your Dog Loves You (Feat. Crush) - Colde(콜드)
 - I Wish You Love - Lisa Ono
 - Novabossa - 클래지콰이
-
 - 스며들기 좋은 오늘 - 백예린 (Yerin Baek)
 - 호구 - 기리보이
 - 찰칵 - 기리보이
 - Let Me Know (Bouns Track) - 지소울(GSoul)
-
 - 조바심 - 빛과 소금
-
 - 멋지게 인사하는 법 (Feat. 슬기 of Red Velvet) - Zion. T
-
 - 팔레트 (Feat. G-DRAGON) - 아이유
-
 - 돌림노래 (Feat. DEAN) - 아이유
-
 - 뒹굴뒹굴 (Idle Idle) - 선우정아
-
 - Peaches (Feat. Daniel Caesar & Giveon) - Justin Bieber
-
 - 우리네 봄 (Spring Attitude) - 선우정아
 
   <br><br>
@@ -58,7 +50,6 @@ categories: opinion
 #### **🌆(R&B) 분홍색 노을이 지는 황혼**
 
 - Let Me (Feat. Devin Morrison) - Crush
-
 - 에필로그 - 아이유
 - 빛 - Colde(콜드)
 - 우리끼리 (Words Don't Come Easy) - 마마무 (Mamamoo)
@@ -71,7 +62,6 @@ categories: opinion
 #### **🌇🚗(City Pop, R&B) 서늘한 저녁에 가로등 불빛 사이 드라이브**
 
 - When the Party's Over - Alexander O'neal
-
 - The Highways Of My Life - The Isley Brothers
 - Haru (with meenoi) - Bronze
 - Missing Call (Feat. 수란) - LUCY
@@ -95,7 +85,7 @@ categories: opinion
 - You Can't Hide Away From Love - Jamie Cullum
 - Bad Boy - Red Velvet (레드벨벳)
 - 마음대로 - Colde (콜드)
-- 당신과는 
+- 당신과는 천천히 - 장범준
 - Best Part (Feat. Daniel Caesar) - H.E.R.
 - 춤 (with 이소라) - Crush
 - She Said (with BIBI) - Crush
@@ -103,7 +93,6 @@ categories: opinion
 - 잠이 오질 않네요 - 장범준
 - 입술 사이 (50cm) - 아이유
 - 동거 (in the bed) - 선우정아
-
 - 가을속에서 - 화사 (Hwa sa) , WOOGIE
 - Can I Love ? (Feat. 유라(youra), Meego) - Cosmic Boy
 
