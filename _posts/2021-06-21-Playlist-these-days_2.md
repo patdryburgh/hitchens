@@ -1,9 +1,9 @@
-- - - -
-title: “Playlist these days.21.06.22.”
+---
+title: "Playlist these days.21.06.21."
 layout: post
-author: “okhaeeun”
+author: "okhaeeun"
 categories: opinion
-- - - -
+---
 
 ### 🎧Playlist these days🎧
 
