@@ -39,8 +39,10 @@ title: About
 - [tipEthnic](https://github.com/tipEthnic/tipEthnic)
 
   - **팁의 민족**
-![tipEthnic](https://dhrgodms.github.io/hitchens/readme_image.png)(https://tipethnic.herokuapp.com/)
-
+![tipEthnic](https://dhrgodms.github.io/hitchens/readme_image.png)
+<br>
+[팁의 민족](https://tipethnic.herokuapp.com/)
+<br>
   - 거리에 따른 추가배달비를 계산하는 것을 돕는 프로그램입니다. node.js로 서버를 구동하고, Kakao 지도 API, T map API를 이용하였습니다. T map API를 이용해 현재 장소를 중심으로 지도를 띄우고, 설정한 장소 간의 거리를 계산하여 예상 추가배달비를 돕는 기능을 개발하였습니다.
   - 처음으로 제대로 된 프로젝트를 해본 기억이 되었습니다. 이 프로젝트를 통해 github를 제대로 사용하는 방법을 배우고, 오픈 API를 이용하여 개발하며 전공에 대해 한걸음 더 가까이 다가가게 되었고, 많은 성장을 이루게 된 계기가 되었습니다.
 <br><br>
