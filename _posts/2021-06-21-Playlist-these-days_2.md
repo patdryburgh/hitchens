@@ -68,5 +68,5 @@ categories: opinion
 - 송곳니 (feat.youra, pH-1) - APRO
 - 음음(Prod. Cosmic Boy) - SOLE
 - 깜빡(feat.Zion.T & Crucial Star) - GRAY
-- 미행(그림자:Shadow) - f(無)
+- 미행(그림자:Shadow) - f(x)
 - 이름(feat. 권진아) - 다운
