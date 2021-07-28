@@ -167,6 +167,14 @@ The theme uses a [custom DuckDuckGo Search Form](https://ddg.patdryburgh.com) th
 hide_search: true
 ```
 
+### Skip navigation
+
+The theme has a (hidden) banner which can be accessed by moving your mouse to the top of the page. Clicking the banner will skip the navigation menu and move you right to the page content. The banner can be turned off by including the following line in your site's `_config.yml` file: 
+
+```
+skip_navigation: true
+```
+
 ### Font
 
 I spent a good amount of time trying to identify the font used on the front cover of the trade paperback version of Arguably. Unfortunately, I failed to accurately identify the exact font used. If you happen to know what font is used on the book cover, I would appreciate you [letting me know](mailto:hello@patdryburgh.com) :)
