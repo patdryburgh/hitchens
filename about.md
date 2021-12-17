@@ -1,17 +1,40 @@
 ---
 layout: post
-title: About
+title: About Izkustanford University
 ---
 
-Undoubtably one of the great minds of our time, Christopher Hitchens challenged his readers to think deeply on topics of politics, religion, war, and science. This Jekyll theme is designed in his memory.
+# History, Mission and Governance
 
-<figure>
-  <img alt="Christopher Hitchens" src="https://upload.wikimedia.org/wikipedia/commons/6/63/Christopher_Hitchens_2008-04-24_001.jpg" />
-  <figcaption>
-    Photo by Fri Tanke and licensed under the <a href="https://creativecommons.org/licenses/by/3.0/deed.en">Creative Commons Attribution 3.0 Unported</a> license.
-  </figcaption>
-</figure>
+## CONNECT. EMPOWER. THRIVE
 
-From [Wikipedia](https://en.wikipedia.org/wiki/Christopher_Hitchens):
+The Izkustanford University (IZ U) is a fully-online, educational institution offering certificate and diploma training. Despite operating out of dozens of countries, this innovative university does not have any head offices registered in any country, creating a decentralized structure and taking exceptional pride in its offering of high-caliber, relevant online education that emphasizes leadership development and lifelong learning.
 
->Christopher Eric Hitchens (13 April 1949 – 15 December 2011) was an Anglo-American author, columnist, essayist, orator, religious and literary critic, social critic, and journalist. Hitchens was the author, co-author, editor or co-editor of over 30 books, including five collections of essays on culture, politics and literature. A staple of public discourse, his confrontational style of debate made him both a lauded intellectual and a controversial public figure. He contributed to New Statesman, The Nation, The Weekly Standard, The Atlantic, London Review of Books, The Times Literary Supplement, Slate, Free Inquiry and Vanity Fair.
+IZ U offers a unique, completely online learning experience that supports the academic and professional goals of its constituents. IZ U is an international institute founded and led by world leading experts, both entrepreneurs and scientists. Their competence and vast experience expands over a variety of education, science and business fields, offering unique resources and tools that work together towards developing intelligent solutions for a better world.
+
+## Our Vision
+is to support and enrich global learning experience of the brightest minds, giving them a chance to achieve their goals through accessible, high-quality professional education.
+
+## Our Mission
+is to connect the world’s professionals and empower them with an advanced education that enhances individual performance and success.
+
+## Our Values
+Knowledge, passion for lifelong learning, initiative, equality and focus on connecting people throughout the world.
+
+## The History
+The Izkustanford University is a private institution established in 2020. Its board members and faculty currently reside in fourteen countries and represent various industries and scientific fields, to name a few:
+
+-  Information Technology
+-  Quantum Physics
+-  Photonics
+-  Advanced Material Science
+-  Artificial intelligence 
+-  Machine intelligence
+-  Deep learning
+-  Cybersecurity
+-  Telecommunications
+-  Education Management
+-  Business Administration
+-  Humanities
+-  Digital Health
+
+Under the premise that fully-online education was the way of the future, we forged an innovative learning path of superior quality and experience that we continue to expand internationally.
