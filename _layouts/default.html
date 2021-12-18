@@ -17,10 +17,8 @@
     {%- if jekyll.environment == 'production' and site.google_analytics -%}
       {%- include google-analytics.html -%}
     {%- endif -%}
-
   </head>
   <body>
-
     {% if page.layout == 'home' %}
       <a href="#main" class="skip-navigation">
         Skip to list of posts
@@ -46,6 +44,5 @@
         </p>
       </aside>
     {% endunless %}
-
   </body>
 </html>

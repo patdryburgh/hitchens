@@ -11,23 +11,23 @@ layout: null
     "favicon": "{{ "/favicon.ico" | absolute_url }}",
     "expired": false,
     "items": [
-    {% for post in site.posts limit: 15 %}
-      {% unless post.draft %}
-        {% capture content_text %}{{ post.content | strip_html }}{% endcapture %}
-        {% capture content_html %}{{ post.content | markdownify }}{% endcapture %}
-        {
-            "id": "{{ post.url | absolute_url | sha1 }}",
-            {% if post.title != "" %}"title": {{ post.title | jsonify }},{% endif %}
-            "content_text": {{ content_text | jsonify }},
-            "content_html": {{ content_html | jsonify }},
-            "url": "{{ post.url | absolute_url}}",
-            "date_published": "{{ post.date | date_to_xmlschema }}",
-            "date_modified": "{{ post.date | date_to_xmlschema }}",
-            "author": {
-                "name": "{{ post.author }}"
-            }
-        }{% if forloop.last == false %},{% endif %}
-        {% endunless %}
-    {% endfor %}
+    // {% for post in site.posts limit: 15 %}
+    //   {% unless post.draft %}
+    //     {% capture content_text %}{{ post.content | strip_html }}{% endcapture %}
+    //     {% capture content_html %}{{ post.content | markdownify }}{% endcapture %}
+    //     {
+    //         "id": "{{ post.url | absolute_url | sha1 }}",
+    //         {% if post.title != "" %}"title": {{ post.title | jsonify }},{% endif %}
+    //         "content_text": {{ content_text | jsonify }},
+    //         "content_html": {{ content_html | jsonify }},
+    //         "url": "{{ post.url | absolute_url}}",
+    //         "date_published": "{{ post.date | date_to_xmlschema }}",
+    //         "date_modified": "{{ post.date | date_to_xmlschema }}",
+    //         "author": {
+    //             "name": "{{ post.author }}"
+    //         }
+    //     }{% if forloop.last == false %},{% endif %}
+    //     {% endunless %}
+    // {% endfor %}
     ]
 }

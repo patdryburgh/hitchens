@@ -23,17 +23,17 @@ layout: default
 {% endif %}
 
 <main class="home" id="main" role="main" aria-label="Content">
-
-  <h1 class="content-title divided">
-    {% if site.paginate and site.paginate_path and paginator.page > 1 %}
+  {% if site.paginate and site.paginate_path and paginator.page > 1 %}
+    <h1 class="content-title divided">
       Page {{ paginator.page }}
-    {% else %}
+    </h1>
+  {% elsif paginator.total_pages > 1 %}
+    <h1 class="content-title divided">
       Contents
-    {% endif %}
-  </h1>
+    </h1>
+  {% endif %}
 
   {% if site.paginate and site.paginate_path %}
-    
     <ul class="post-list">
       {% for post in paginator.posts %}
         {% include post-list-item.html %}
@@ -41,7 +41,6 @@ layout: default
     </ul>
 
     {% if paginator.total_pages > 1 %}
-
       <div class="post-pagination">
         {% if paginator.next_page %}
           <a href="{{ paginator.next_page_path | prepend: site.baseurl  }}" class="pagination-next btn">&lang;&nbsp;Older</a>
@@ -55,18 +54,13 @@ layout: default
           <span>&nbsp;</span>
         {% endif %}
       </div>
-
     {% endif %}
 
   {% else %}
-
     <ul class="post-list">
       {% for post in site.posts %}
         {% include post-list-item.html %}
       {% endfor %}
     </ul>
-  
   {% endif %}
-    
-
 </main>

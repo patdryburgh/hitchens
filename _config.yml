@@ -16,7 +16,7 @@
 title: Izkustanford University
 description: >- # this means to ignore newlines until "baseurl:"
   Connect. Empower. Thrive
-email: hello@patdryburgh.com
+email: hello@izkustanford.com
 baseurl: "/site" # the subpath of your site, e.g. /blog
 url: "https://izkustanford.com" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/icon-512.png
@@ -43,3 +43,6 @@ paginate: 3
 paginate_path: "/page/:num/"
 
 ignore_theme_config: true
+hide_credits: true
+hide_search: true
+google_analytics: false
