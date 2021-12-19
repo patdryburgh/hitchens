@@ -10,7 +10,7 @@ subtitle: MSc, Administration & Admission Office
 
 **Faculty**: organisational behavior
 
-Alena is a seasoned professional, internationally recognised for outstanding leadership, volunteerism, and mentoring. A lifelong learner, Alena continues to participate in building the next generation of leaders, most notably in Eastern Europe. A native of Minsk, she earned both her undergraduate and graduate degrees in Technology and Engineering from Belarussian National Technical University. 
+Alena is a seasoned professional, internationally recognised for outstanding leadership, volunteerism, and mentoring. A lifelong learner, Alena continues to participate in building the next generation of leaders, most notably in Eastern Europe. A native of Minsk, she earned both her undergraduate and graduate degrees in Technology and Engineering from Belarussian National Technical University.
 
 A sought after speaker, presenter, and author, Alena has recently participated in a podcasts series on Mental Health and the Pandemic; as a Faculty member of IZ U she facilitated a number of the „Building Resilience, Making Bridges“  international meetups under the auspices of the „vas3k“ Club for IT experts, where she acts as an ambassador of online education.
 

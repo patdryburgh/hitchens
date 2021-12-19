@@ -20,3 +20,4 @@ title: IZ U Key People
 3. Head of Maintenance: currently vacant.
 4. [Dean for Risk Management: Alex Korolev, CMC, CISSP, CRISC, PMP, PMI-ACP, Univ. Sp., D. Hons.]({% link people/alexey-korolev.md %})
 5. Dean for IT & Business Development: Yury Kupriyanov, MSc, MBA.
+6. [Dean for Applied Finance: Аrtem Gonov, BA, MSc]({% link people/artem-gonov.md %})
