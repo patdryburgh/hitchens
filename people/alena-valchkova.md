@@ -2,6 +2,7 @@
 layout: post
 title: Alena Valchkova
 subtitle: MSc, Administration & Admission Office
+permalink: /people/alena-valchkova
 ---
 
 ![Alena Valchkova]({{ site.baseurl }}/assets/images/people/alena-valchkova.jpeg)
