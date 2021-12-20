@@ -19,5 +19,5 @@ title: IZ U Key People
 2. [Deputy Head of Admission Office: Nikita Yudenkov, Instructional Field(s): Cybersecurity. Faculty: Information Technologies]({% link people/nikita-yudenkov.md %})
 3. Head of Maintenance: currently vacant.
 4. [Dean for Risk Management: Alex Korolev, CMC, CISSP, CRISC, PMP, PMI-ACP, Univ. Sp., D. Hons.]({% link people/alexey-korolev.md %})
-5. Dean for IT & Business Development: Yury Kupriyanov, MSc, MBA.
+5. [Dean for IT & Business Development: Yury Kupriyanov, MSc, MBA.]({% link people/yury-kupriyanov.md %})
 6. [Dean for Applied Finance: Аrtem Gonov, BA, MSc]({% link people/artem-gonov.md %})
