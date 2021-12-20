@@ -9,11 +9,14 @@ layout: default
 {% endif %}
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" id="main" role="article" aria-label="Content">
-
   {% if page.title != "" %}
     <h1 class="post-title divided p-name" itemprop="name headline">
       {{ page.title }}
     </h1>
+  {% endif %}
+
+  {% if page.subtitle != "" %}
+    <h2>{{ page.subtitle }}</h2>
   {% endif %}
 
   <div class="post-content e-content" itemprop="articleBody">

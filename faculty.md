@@ -1,32 +1,23 @@
 ---
 layout: post
-title: Key people
+title: IZ U Key People
 ---
 
-# IZ U Key People
-
 ## Board of Directors:
-1. Chancellor: @Seigiard
-2. Chief Operation Officer: @dmtrmrshn
-3. Chairlady: @BariumBarista
-4. Board Member: @korolev_alex
-5. Chief S.B.M.G. Officer, C.U.: @Villoso
-6. Chief Whitenoise Officer: @rcmd_hq
+1. [Chancellor: Prof. s.d.o. Andrew Borisenko]({% link people/andrew-borisenko.md %})
+2. [Chief Operation Officer: Dima Miroshnichenko, BA, MSc, PhD]({% link people/dima-miroshnichenko.md %})
+3. [Director of development: Dr. med. Victoria Wapf]({% link people/victoria-wapf.md %})
+4. [Head Instructor: Alena Valchkova, BSc, MA]({% link people/alena-valchkova.md %})
 
 ## Strategic Advisory Board:
-1. Principal Designer in Charge: @oisio
-2. Vice President for Music Affairs: @C1nde
-3. Chief Mascote Officer: @dmtrmrshn
-4. Неаd of Corporate Attire: @austinate
+1. [Vice President for Public Affairs: Constantine Pauk, B. Sc., P. Eng.]({% link people/constantine-pauk.md %})
+2. [Corporate Design Officer: Dima Miroshnichenko, BA, MSc, PhD]({% link people/dima-miroshnichenko.md %})
+3. Неаd of Corporate Attire: Ostap Taran, BSc, Msc
 
 ## Faculty & Administration:
-1. Dean of Paviane Biosociology: @nyudenkov
-2. Head of Admission Office: …
-3. Head of Maintenance: @vbrodskyi
-4. Faculty Ghost Writer: @lisa_Lissa
-5. Chair of Retarded Aviary (Welness & Mental Health): @IsnowyOWL
-6. Chair of Stochastic Gradient Descent: @nekrasov_anton
-7. Deputy Dean for Procrastination & Procurement for AI): @yurecccc
-8. Executive Assistant to the Deputy Dean for P&Р: @a_kozhukhovsky
-9. Chair of Applied Memosociology: @Prokhorov_D
-10. Chair of Technological Assistance & Non-Profit Sophistry: @eddie_remorhaz
+1. [Head of Admission Office: Alena Valchkova, BSc, MA: Administration & Admissions. Faculty: Organisational Behavior.]({% link people/alena-valchkova.md %})
+2. [Deputy Head of Admission Office: Nikita Yudenkov, Instructional Field(s): Cybersecurity. Faculty: Information Technologies]({% link people/nikita-yudenkov.md %})
+3. Head of Maintenance: currently vacant.
+4. [Dean for Risk Management: Alex Korolev, CMC, CISSP, CRISC, PMP, PMI-ACP, Univ. Sp., D. Hons.]({% link people/alexey-korolev.md %})
+5. [Dean for IT & Business Development: Yury Kupriyanov, MSc, MBA.]({% link people/yury-kupriyanov.md %})
+6. [Dean for Applied Finance: Аrtem Gonov, BA, MSc]({% link people/artem-gonov.md %})
