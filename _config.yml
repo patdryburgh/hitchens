@@ -46,3 +46,5 @@ ignore_theme_config: true
 hide_credits: true
 hide_search: true
 google_analytics: false
+
+include: ['people']
