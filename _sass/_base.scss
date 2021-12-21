@@ -117,6 +117,18 @@ figcaption {
   padding: 4em 1em;
 }
 
+.welcomepage {
+  background: white;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcomepage img {
+  width: 50%;
+}
+
 .content-title {
   font-size: 2em;
   margin-bottom: 2em;

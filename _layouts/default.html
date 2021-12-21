@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}?{{ site.time | date: '%s%N' }}">
 
-    <link rel="apple-touch-icon" href="{{ site.icon }}">
+    {% include favicons.html %}
 
     {%- if jekyll.environment == 'production' and site.google_analytics -%}
       {%- include google-analytics.html -%}
