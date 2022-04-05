@@ -47,6 +47,19 @@ title: About
   - 처음으로 제대로 된 프로젝트를 해본 기억이 되었습니다. 이 프로젝트를 통해 github를 제대로 사용하는 방법을 배우고, 오픈 API를 이용하여 개발하며 전공에 대해 한걸음 더 가까이 다가가게 되었고, 많은 성장을 이루게 된 계기가 되었습니다.
 <br><br>
 
+<br>
+
+- [nowmusic](https://github.com/nowmusic/nowmusic.github.io)
+
+    - **나우뮤직**
+      ![nowmusic](https://nowmusic.github.io/img/nowmusic_photo.png)
+      <br>
+      [나우뮤직](https://nowmusic.github.io/)
+      <br>
+    - 기분과 상황을 담은 보기를 선택하여 iframe 태그를 이용해 추천 플레이리스트를 제공하는 페이지 입니다.
+    - SPA(Single Page Application) 버튼 제작 및 서버구동을 맡아 수행하였습니다.
+      <br><br>
+
 ### 〰️관심저장소 Fork 목록〰️
 
 - [React](https://github.com/dhrgodms/react)
