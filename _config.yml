@@ -45,3 +45,4 @@ paginate: 3
 paginate_path: "/page/:num/"
 
 hide_search: true
+hide_credits: true
