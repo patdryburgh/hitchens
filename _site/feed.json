@@ -1,7 +1,7 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Do Know Harm",
-    "home_page_url": "http://localhost:4000/",
+    "home_page_url": "",
     "feed_url": "http://localhost:4000/feed.json",
     "description": "insert description here",
     "icon": "http://localhost:4000/assets/images/icon-512.png",
