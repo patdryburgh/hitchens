@@ -1,9 +1,4 @@
----
-layout: post
-title: About
----
-
-insert about information here
+I"æ<p>insert about information here</p>
 
 <figure>
   <img alt="Do Know Harm logo" src="assets/images/logo.png" />
@@ -12,4 +7,5 @@ insert about information here
   </figcaption>
 </figure>
 
-more text here
+<p>more text here</p>
+:ET
