@@ -1,0 +1,183 @@
+I"�1<p>An inarguably well-designed <a href="http://jekyllrb.com">Jekyll</a> theme by <a href="https://patdryburgh.com">Pat Dryburgh</a>.</p>
+
+<p><img src="https://raw.githubusercontent.com/patdryburgh/hitchens/master/screenshot.png" alt="Hitchens Preview" /></p>
+
+<p>Undoubtably one of the great minds of our time, <a href="https://en.wikipedia.org/wiki/Christopher_Hitchens">Christopher Hitchens</a> challenged his readers to think deeply on topics of politics, religion, war, and science. This Jekyll theme’s design is inspired by the trade paperback version his book, <a href="https://en.wikipedia.org/wiki/Arguably">Arguably</a>, and is dedicated to his memory.</p>
+
+<h2 id="quick-start">Quick Start</h2>
+
+<p>This theme is, itself, a Jekyll blog, meaning the code base you see has everything you need to run a Jekyll powered blog!</p>
+
+<p>To get started quickly, follow the instructions below:</p>
+
+<ol>
+  <li>Click the <code class="language-plaintext highlighter-rouge">Fork</code> button at the top of <a href="https://github.com/patdryburgh/hitchens/">the repository</a>;</li>
+  <li>Go to your forked repo’s <code class="language-plaintext highlighter-rouge">Settings</code> screen;</li>
+  <li>Scroll down to the <code class="language-plaintext highlighter-rouge">GitHub Pages</code> section;</li>
+  <li>Under <code class="language-plaintext highlighter-rouge">Source</code>, select the <code class="language-plaintext highlighter-rouge">Master</code> branch;</li>
+  <li>Hit <code class="language-plaintext highlighter-rouge">Save</code>.</li>
+  <li>Follow <a href="https://jekyllrb.com/docs/configuration/">Jekyll’s instructions to configure your new Jekyll site</a>.</li>
+</ol>
+
+<h2 id="manual-installation">Manual Installation</h2>
+
+<p>If you’ve already created your Jekyll site or are comfortable with the command line, you can follow <a href="https://jekyllrb.com/docs/">Jekyll’s Quickstart instructions</a> add this line to your Jekyll site’s <code class="language-plaintext highlighter-rouge">Gemfile</code>:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"hitchens-theme"</span>
+</code></pre></div></div>
+
+<p>And add the following lines to your Jekyll site’s <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">theme</span><span class="pi">:</span> <span class="s">hitchens-theme</span>
+</code></pre></div></div>
+
+<p>Depending on your <a href="https://jekyllrb.com/docs/configuration/options/">site’s configuration</a>, you may also need to add:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">ignore_theme_config</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p>And then on the command line, execute:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ bundle
+</code></pre></div></div>
+
+<p>Or install the theme yourself as:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ gem install hitchens-theme
+</code></pre></div></div>
+
+<h2 id="usage">Usage</h2>
+
+<h3 id="home-layout">Home Layout</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">home</code> layout presents a list of articles ordered chronologically. The theme uses <a href="https://jekyllrb.com/docs/pagination/#enable-pagination">Jekyll’s built-in pagination</a> which can be configured in your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+
+<p>The masthead of the home page is derived from the <code class="language-plaintext highlighter-rouge">title</code> and <code class="language-plaintext highlighter-rouge">description</code> set in your site’s <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+
+<h4 id="navigation">Navigation</h4>
+
+<p>To include a navigation menu in your site’s masthead and footer:</p>
+
+<ol>
+  <li>Create a <code class="language-plaintext highlighter-rouge">_data</code> directory in the root of your site.</li>
+  <li>Add a <code class="language-plaintext highlighter-rouge">menu.yml</code> file to the <code class="language-plaintext highlighter-rouge">_data</code> directory.</li>
+  <li>Use the following format to list your menu items:</li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- title: About
+  url: /about.html
+
+- title: Source
+  url: https://github.com/patdryburgh/hitchens
+</code></pre></div></div>
+
+<p>Be sure to start your <code class="language-plaintext highlighter-rouge">url</code>s with a <code class="language-plaintext highlighter-rouge">/</code>.</p>
+
+<h4 id="pagination">Pagination</h4>
+
+<p>To paginate your posts, add the following line to your site’s <code class="language-plaintext highlighter-rouge">Gemfile</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem "jekyll-paginate"
+</code></pre></div></div>
+
+<p>Then, add the following lines to your site’s <code class="language-plaintext highlighter-rouge">_config.yml</code> file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>plugins:
+  - jekyll-paginate
+
+paginate: 20
+paginate_path: "/page/:num/"
+</code></pre></div></div>
+
+<p>You can set the <code class="language-plaintext highlighter-rouge">paginate</code> and <code class="language-plaintext highlighter-rouge">paginate_path</code> settings to whatever best suits you.</p>
+
+<h4 id="excerpts">Excerpts</h4>
+
+<p>To show <a href="https://jekyllrb.com/docs/posts/#post-excerpts">excerpts</a> of your blog posts on the home page, add the following settings to your site’s <code class="language-plaintext highlighter-rouge">_config.yml</code> file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>show_excerpts: true
+</code></pre></div></div>
+
+<p>By default, excerpts that have more than 140 characters will be truncated to 20 words. In order to override the number of words you’d like to show for your excerpts, add the following setting to your site’s <code class="language-plaintext highlighter-rouge">_config.yml</code> file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>excerpt_length: 20
+</code></pre></div></div>
+
+<p>To disable excerpt truncation entirely, simply set <code class="language-plaintext highlighter-rouge">excerpt_length</code> to <code class="language-plaintext highlighter-rouge">0</code> in your site’s <code class="language-plaintext highlighter-rouge">_config.yml</code> file, like so:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>excerpt_length: 0
+</code></pre></div></div>
+
+<p>If you do this, the theme will still respect Jekyll’s <code class="language-plaintext highlighter-rouge">excerpt_separator</code> feature as <a href="https://jekyllrb.com/docs/posts/#post-excerpts">described in the Jekyll documentation</a>.</p>
+
+<h4 id="title-less-posts">Title-less Posts</h4>
+
+<p>If you want to publish posts that don’t have a title, add the following setting to the <a href="https://jekyllrb.com/docs/frontmatter/">front matter</a> of the post:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>title: ""
+</code></pre></div></div>
+
+<p>When you do this, the home page will display a truncated <a href="https://jekyllrb.com/docs/posts/#post-excerpts">excerpt</a> of the first paragraph of your post.</p>
+
+<p>Note that setting <code class="language-plaintext highlighter-rouge">excerpt_length</code> in your site’s <code class="language-plaintext highlighter-rouge">_config.yml</code> file will set the length of <em>all</em> excerpts, regardless of whether the post has a title or not. For posts with a title, the excerpt will appear under the title and slightly lighter. For title-less posts, the excerpt will appear as if it were a title.</p>
+
+<h3 id="post-layout">Post Layout</h3>
+
+<p>A sparsely decorated layout designed to present long-form writing in a manner that’s pleasing to read.</p>
+
+<p>To use the post layout, add the following to your post’s <a href="https://jekyllrb.com/docs/frontmatter/">front matter</a>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>layout: post
+</code></pre></div></div>
+
+<h3 id="icons">Icons</h3>
+
+<p>The <a href="https://jsonfeed.org/version/1">JSON Feed spec</a> states that feeds should include an icon. To add your icon, add the following line in your site’s <code class="language-plaintext highlighter-rouge">_config.yml</code> file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>feed_icon: /assets/images/icon-512.png
+</code></pre></div></div>
+
+<p>Then, replace the <code class="language-plaintext highlighter-rouge">/assets/images/icon-512.png</code> file with your own image.</p>
+
+<h3 id="credits">Credits</h3>
+
+<p>The theme credits that appear at the bottom of each page can be turned off by including the following line in your site’s <code class="language-plaintext highlighter-rouge">_config.yml</code> file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hide_credits: true
+</code></pre></div></div>
+
+<h3 id="search">Search</h3>
+
+<p>The theme uses a <a href="https://ddg.patdryburgh.com">custom DuckDuckGo Search Form</a> that can be turned off by including the following line in your site’s <code class="language-plaintext highlighter-rouge">_config.yml</code> file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hide_search: true
+</code></pre></div></div>
+
+<h3 id="font">Font</h3>
+
+<p>I spent a good amount of time trying to identify the font used on the front cover of the trade paperback version of Arguably. Unfortunately, I failed to accurately identify the exact font used. If you happen to know what font is used on the book cover, I would appreciate you <a href="mailto:hello@patdryburgh.com">letting me know</a> :)</p>
+
+<p>The theme includes a version of <a href="https://fonts.google.com/specimen/EB+Garamond">EB Garamond</a>, designed by Georg Duffner and Octavio Pardo. It’s the closest alternative I could come up with that included an open license to include with the theme.</p>
+
+<p>A <a href="https://github.com/patdryburgh/hitchens/blob/master/assets/fonts/OFL.txt">copy of the license</a> has been included in the <code class="language-plaintext highlighter-rouge">assets</code> folder and must be included with any distributions of this theme that include the EB Garamond font files.</p>
+
+<h2 id="contributing--requesting-features">Contributing &amp; Requesting Features</h2>
+
+<p>Bug reports, feature requests, and pull requests are welcome on GitHub at <a href="https://github.com/patdryburgh/hitchens">https://github.com/patdryburgh/hitchens</a>.</p>
+
+<p>This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the <a href="http://contributor-covenant.org">Contributor Covenant</a> code of conduct.</p>
+
+<h2 id="development">Development</h2>
+
+<p>To set up your environment to develop this theme, run <code class="language-plaintext highlighter-rouge">bundle install</code>.</p>
+
+<p>The theme is setup just like a normal Jekyll site. To test the theme, run <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> and open your browser at <code class="language-plaintext highlighter-rouge">http://localhost:4000</code>. This starts a Jekyll server using the theme. Add pages, documents, data, etc. like normal to test the theme’s contents. As you make modifications to the theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.</p>
+
+<h2 id="license">License</h2>
+
+<p>The code for this theme is available as open source under the terms of the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+
+<p>The font, EB Garamond, is Copyright 2017 The EB Garamond Project Authors and licensed under the <a href="https://github.com/patdryburgh/hitchens/blob/master/assets/fonts/OFL.txt">SIL Open Font License Version 1.1</a>.</p>
+
+<p>Graphics are released to the public domain.</p>
+:ET
