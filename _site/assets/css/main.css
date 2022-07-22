@@ -463,38 +463,38 @@ body {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     margin: .5em auto;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1em;
     margin: 1em auto;
     text-align: center;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1em;
     margin: 1.3333em auto;
     text-align: center;
 }
 
 h4 {
-    font-size: 1.25em;
+    font-size: .875em;
     font-style: italic;
     margin: 1.875em auto;
     text-align: center;
 }
 
 h5 {
-    font-size: 1em;
+    font-size: .75em;
     font-style: italic;
     margin: 2em auto;
     text-align: center;
 }
 
 h6 {
-    font-size: .875em;
+    font-size: .75em;
     font-style: italic;
     margin: 2.25em auto;
     text-align: center;
@@ -546,7 +546,7 @@ hr {
     width: 152px;
     height: 12px;
     margin: .5em auto 0;
-    background: url("/assets/images/divider.svg") no-repeat top center;
+    background: url("https://do-know-harm.github.io/assets/images/divider.svg") no-repeat top center;
     margin: 4em 0;
 }
 
@@ -554,7 +554,7 @@ img {
     display: flex;
     max-width: 100%;
     height: auto;
-    margin: 2em auto;
+    margin: 0.5em auto;
 }
 
 figure img {
@@ -576,7 +576,7 @@ figcaption {
     width: 152px;
     height: 12px;
     margin: .5em auto 0;
-    background: url("/assets/images/divider.svg") no-repeat top center;
+    background: url("https://do-know-harm.github.io/assets/images/divider.svg") no-repeat top center;
 }
 
 .home {
@@ -884,7 +884,7 @@ figcaption {
     width: 152px;
     height: 12px;
     margin: .5em auto 0;
-    background: url("/assets/images/divider.svg") no-repeat top center;
+    background: url("https://do-know-harm.github.io/assets/images/divider.svg") no-repeat top center;
     margin: 4em auto;
 }
 

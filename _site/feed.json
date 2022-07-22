@@ -3,7 +3,7 @@
     "title": "Do Know Harm",
     "home_page_url": "",
     "feed_url": "http://localhost:4000/feed.json",
-    "description": "insert description here",
+    "description": "a visual novel crossed with combat medicine",
     "icon": "http://localhost:4000/assets/images/icon-512.png",
     "favicon": "http://localhost:4000/favicon.ico",
     "expired": false,
