@@ -28,29 +28,63 @@ layout: default
     {% if site.paginate and site.paginate_path and paginator.page > 1 %}
       Page {{ paginator.page }}
     {% else %}
-      Contents
+      News Articles
     {% endif %}
   </h1>
 
-  <ul class="news-list">
-    {% for item in site.news %}
-      <h2> hi </h2>
-      <h2>{{ item.title }}</h2>
-      <p>{{ item.description }}</p>
-      <p><a href="{{ item.url }}">{{ item.title }}</a></p>
-    {% endfor %}
-  </ul>
+  <!-- <a href="{{ post.url | absolute_url }}" class="post-link"></a> -->
 
-  {% if site.paginate and site.paginate_path %}
+  <!-- {% if site.paginate and site.paginate_path %} -->
     
+    <ul class="news-list">
+      {% for item in site.news %}
+        <a href="{{ item.url | absolute_url }}" class="post-link">
+          <div class="post-link__heading">
 
-    
-    
-    <!-- <ul class="post-list">
-      {% for post in paginator.posts %}
-        {% include post-list-item.html %}
+              <h1 class="post-link__title">      
+                {{ item.title }}
+              </h1>
+
+          </div>
+          <span class="post-date">
+            {{ item.date | date: "%b %-d, '%y" }}
+          </span>
+      </a>
+        <!-- <h2> hi </h2> -->
+        <!-- <h2>{{ item.title }}</h2>
+        <p>{{ item.description }}</p>
+        <p><a href="{{ item.url }}">{{ item.title }}</a></p> -->
       {% endfor %}
-    </ul> -->
+    </ul>
+
+    <h1 class="content-title divided">
+      {% if site.paginate and site.paginate_path and paginator.page > 1 %}
+        Page {{ paginator.page }}
+      {% else %}
+        Dev Diaries
+      {% endif %}
+    </h1>
+    
+    
+    <ul class="posts-list">
+      {% for item in site.posts %}
+        <a href="{{ item.url | absolute_url }}" class="post-link">
+          <div class="post-link__heading">
+              <h1 class="post-link__title">      
+                {{ item.title }}
+              </h1>
+          </div>
+          <span class="post-date">
+            {{ item.date | date: "%b %-d, '%y" }}
+          </span>
+      </a>
+        <!-- <h2> hi </h2> -->
+        <!-- <h2>{{ item.title }}</h2>
+        <p>{{ item.description }}</p>
+        <p><a href="{{ item.url }}">{{ item.title }}</a></p> -->
+      {% endfor %}
+    </ul>
+
 
     <!-- <ul class="news-list">
       {% for news in site.news %}
@@ -62,7 +96,7 @@ layout: default
       {% endfor %}
     </ul> -->
 
-    {% if paginator.total_pages > 1 %}
+    <!-- {% if paginator.total_pages > 1 %} -->
 
       <!-- <div class="post-pagination">
         {% if paginator.next_page %}
@@ -92,9 +126,9 @@ layout: default
         {% endif %}
       </div> -->
 
-    {% endif %}
+    <!-- {% endif %} -->
 
-  {% else %}
+  <!-- {% else %} -->
 
     <!-- <ul class="post-list">
       {% for post in site.posts %}
@@ -109,7 +143,7 @@ layout: default
       {% endfor %}
     </ul> -->
   
-  {% endif %}
+  <!-- {% endif %} -->
     
 
 </main>
