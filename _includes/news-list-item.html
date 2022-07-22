@@ -1,0 +1,19 @@
+<li>
+  <a href="{{ news.url | absolute_url }}" class="post-link">
+    <div class="post-link__heading">
+      {% unless news.title == "" %}
+          <h1 class="post-link__title">      
+            {{ news.title }}
+          </h1>
+      {% else %}
+        {% include news-excerpt.html %}
+      {% endunless %}
+      {% if news.title != "" and site.show_excerpts == true %}
+        {% include news-excerpt.html %}
+      {% endif %}
+    </div>
+    <span class="post-date">
+      {{ news.date | date: "%b %-d, '%y" }}
+    </span>
+  </a>
+</li>

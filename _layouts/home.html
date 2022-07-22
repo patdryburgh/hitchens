@@ -28,21 +28,77 @@ layout: default
     {% if site.paginate and site.paginate_path and paginator.page > 1 %}
       Page {{ paginator.page }}
     {% else %}
-      Contents
+      News Articles
     {% endif %}
   </h1>
 
-  {% if site.paginate and site.paginate_path %}
+  <!-- <a href="{{ post.url | absolute_url }}" class="post-link"></a> -->
+
+  <!-- {% if site.paginate and site.paginate_path %} -->
     
-    <ul class="post-list">
-      {% for post in paginator.posts %}
-        {% include post-list-item.html %}
+    <ul class="news-list">
+      {% for item in site.news %}
+        <a href="{{ item.url | absolute_url }}" class="post-link">
+          <div class="post-link__heading">
+
+              <h1 class="post-link__title">      
+                {{ item.title }}
+              </h1>
+
+          </div>
+          <span class="post-date">
+            {{ item.date | date: "%b %-d, '%y" }}
+          </span>
+      </a>
+        <!-- <h2> hi </h2> -->
+        <!-- <h2>{{ item.title }}</h2>
+        <p>{{ item.description }}</p>
+        <p><a href="{{ item.url }}">{{ item.title }}</a></p> -->
       {% endfor %}
     </ul>
 
-    {% if paginator.total_pages > 1 %}
+    <h1 class="content-title divided">
+      {% if site.paginate and site.paginate_path and paginator.page > 1 %}
+        Page {{ paginator.page }}
+      {% else %}
+        Dev Diaries
+      {% endif %}
+    </h1>
+    
+    
+    <ul class="posts-list">
+      {% for item in site.posts %}
+        <a href="{{ item.url | absolute_url }}" class="post-link">
+          <div class="post-link__heading">
+              <h1 class="post-link__title">      
+                {{ item.title }}
+              </h1>
+          </div>
+          <span class="post-date">
+            {{ item.date | date: "%b %-d, '%y" }}
+          </span>
+      </a>
+        <!-- <h2> hi </h2> -->
+        <!-- <h2>{{ item.title }}</h2>
+        <p>{{ item.description }}</p>
+        <p><a href="{{ item.url }}">{{ item.title }}</a></p> -->
+      {% endfor %}
+    </ul>
 
-      <div class="post-pagination">
+
+    <!-- <ul class="news-list">
+      {% for news in site.news %}
+        
+        <h2>{{ news.title }}</h2>
+        {% include news-list-item.html %}
+         <p>{{ news.description }}</p>
+        <p><a href="{{ news.url }}">{{ news.title }}</a></p> 
+      {% endfor %}
+    </ul> -->
+
+    <!-- {% if paginator.total_pages > 1 %} -->
+
+      <!-- <div class="post-pagination">
         {% if paginator.next_page %}
           <a href="{{ paginator.next_page_path | prepend: site.baseurl  }}" class="pagination-next btn">&lang;&nbsp;Older</a>
         {% else %}
@@ -54,19 +110,40 @@ layout: default
         {% else %}
           <span>&nbsp;</span>
         {% endif %}
-      </div>
+      </div> -->
 
-    {% endif %}
+      <!-- <div class="news-pagination">
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl  }}" class="pagination-next btn">&lang;&nbsp;Older</a>
+        {% else %}
+          <span>&nbsp;</span>
+        {% endif %}
+        <span class="pagination-number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-previous btn">Newer&nbsp;&rang;</a>
+        {% else %}
+          <span>&nbsp;</span>
+        {% endif %}
+      </div> -->
 
-  {% else %}
+    <!-- {% endif %} -->
 
-    <ul class="post-list">
+  <!-- {% else %} -->
+
+    <!-- <ul class="post-list">
       {% for post in site.posts %}
         {% include post-list-item.html %}
       {% endfor %}
     </ul>
+    <ul class="news-list">
+      {% for item in site.news %}
+        <h2>{{ item.title }}</h2>
+        <p>{{ item.description }}</p>
+        <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+      {% endfor %}
+    </ul> -->
   
-  {% endif %}
+  <!-- {% endif %} -->
     
 
 </main>

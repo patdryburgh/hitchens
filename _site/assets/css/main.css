@@ -246,7 +246,7 @@ figcaption { font-size: .875em; font-style: italic; text-align: center; margin-b
 
 .post-link { color: #0b0404; display: flex; flex-direction: column-reverse; text-decoration: none; padding: .25em; transition: opacity .125s ease-in-out; }
 
-.post-link:hover, .post-link:focus { opacity: 1 !important; }
+.post-link:hover, .post-link:focus { opacity: .6 !important; }
 
 @media (min-width: 768px) { .post-link { display: flex; flex-direction: row; justify-content: space-between; } .post-link .post-date { margin-left: auto; } }
 
