@@ -1,11 +1,11 @@
 - title: About
   url: /about.html
 
-- title: News
-  url: /news_list.html
-
 - title: Dev Diaries
   url: /post_list.html
+
+- title: News
+  url: /news_list.html
 
 - title: Trailer
   url: http://youtube.com/
