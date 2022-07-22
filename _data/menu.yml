@@ -1,8 +1,14 @@
 - title: About
   url: /about.html
 
-- title: Source
-  url: https://github.com/patdryburgh/hitchens
+- title: News
+  url: /news_list.html
 
-- title: Designer
-  url: http://patdryburgh.com
+- title: Dev Diaries
+  url: /post_list.html
+
+- title: Trailer
+  url: http://youtube.com/
+
+- title: Steam
+  url: https://store.steampowered.com/

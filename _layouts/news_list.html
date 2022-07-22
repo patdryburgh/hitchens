@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+
+{% include menu.html %}
+
+
+<main class="home" id="main" role="main" aria-label="Content">
+
+  <h1 class="content-title divided">
+
+      News Articles
+
+  </h1>
+
+
+    
+    <ul class="news-list">
+      {% for item in site.news %}
+        <a href="{{ item.url | absolute_url }}" class="post-link">
+          <div class="post-link__heading">
+
+              <h1 class="post-link__title">      
+                {{ item.title }}
+              </h1>
+
+          </div>
+          <span class="post-date">
+            {{ item.date | date: "%b %-d, '%y" }}
+          </span>
+        </a>
+      {% endfor %}
+    </ul>
+</main>
