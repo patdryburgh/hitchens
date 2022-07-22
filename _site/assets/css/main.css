@@ -452,7 +452,9 @@ code.highlighter-rouge {
 }
 
 body {
-    background-image: url("/assets/images/bg.png");
+    background-image: url("do-know-harm.github.io/assets/images/bg.png");
+    background-color: #92837A;
+    background-repeat: no-repeat;
     /* color: #0b0404; */
     font-family: "EB Garamond", Garamond, "Times New Roman", serif;
     font-size: 1.3125em;
