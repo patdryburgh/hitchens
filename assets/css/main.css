@@ -190,7 +190,7 @@ small { font-size: .75em; }
 
 p > cite { display: block; text-align: right; }
 
-hr { border: 0; height: 0; border: 0; display: block; width: 152px; height: 12px; margin: .5em auto 0; background: url(http://localhost:4000/assets/images/divider.svg) no-repeat top center; margin: 4em 0; }
+hr { border: 0; height: 0; border: 0; display: block; width: 152px; height: 12px; margin: .5em auto 0; background: url(https://do-know-harm.github.io/assets/images/divider.svg) no-repeat top center; margin: 4em 0; }
 
 img { display: flex; max-width: 100%; height: auto; margin: 2em auto; }
 
@@ -198,7 +198,7 @@ figure img { margin: 2em auto 1em; }
 
 figcaption { font-size: .875em; font-style: italic; text-align: center; margin-bottom: 2em; opacity: .7; }
 
-.divided::after { content: ""; border: 0; display: block; width: 152px; height: 12px; margin: .5em auto 0; background: url(http://localhost:4000/assets/images/divider.svg) no-repeat top center; }
+.divided::after { content: ""; border: 0; display: block; width: 152px; height: 12px; margin: .5em auto 0; background: url(https://do-know-harm.github.io/assets/images/divider.svg) no-repeat top center; }
 
 .home { max-width: 24em; margin: auto; padding: 4em 1em; }
 
@@ -294,7 +294,7 @@ figcaption { font-size: .875em; font-style: italic; text-align: center; margin-b
 
 .footnote:hover, .footnote:focus { background: #93837A; border-color: #93837A; }
 
-.footnotes::before { content: ''; border: 0; display: block; width: 152px; height: 12px; margin: .5em auto 0; background: url(http://localhost:4000/assets/images/divider.svg) no-repeat top center; margin: 4em auto; }
+.footnotes::before { content: ''; border: 0; display: block; width: 152px; height: 12px; margin: .5em auto 0; background: url(https://https://do-know-harm.github.io/assets/images/divider.svg) no-repeat top center; margin: 4em auto; }
 
 .footnotes { margin-bottom: 4em; }
 
