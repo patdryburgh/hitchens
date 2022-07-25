@@ -14,7 +14,7 @@ layout: default
         {{ site.title }}
       </h1>
     {% endif %}
-    {% if site.title %}
+    {% if site.description %}
       <h2>
         {{ site.description }}
       </h2>
@@ -33,7 +33,7 @@ layout: default
   </h1>
 
   {% if site.paginate and site.paginate_path %}
-    
+
     <ul class="post-list">
       {% for post in paginator.posts %}
         {% include post-list-item.html %}
@@ -65,8 +65,7 @@ layout: default
         {% include post-list-item.html %}
       {% endfor %}
     </ul>
-  
+
   {% endif %}
-    
 
 </main>
