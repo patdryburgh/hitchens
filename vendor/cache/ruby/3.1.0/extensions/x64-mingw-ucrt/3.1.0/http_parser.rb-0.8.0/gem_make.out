@@ -1,0 +1,17 @@
+current directory: C:/Users/olivi/cs401epfl/ada-website/vendor/cache/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+C:/Ruby31-x64/bin/ruby.exe -I C:/Ruby31-x64/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: C:/Users/olivi/cs401epfl/ada-website/vendor/cache/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20221214-7540-hr5jae sitelibdir\=./.gem.20221214-7540-hr5jae clean
+
+current directory: C:/Users/olivi/cs401epfl/ada-website/vendor/cache/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20221214-7540-hr5jae sitelibdir\=./.gem.20221214-7540-hr5jae
+generating ruby_http_parser-x64-mingw-ucrt.def
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: C:/Users/olivi/cs401epfl/ada-website/vendor/cache/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20221214-7540-hr5jae sitelibdir\=./.gem.20221214-7540-hr5jae install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20221214-7540-hr5jae

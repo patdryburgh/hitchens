@@ -1,0 +1,17 @@
+current directory: C:/Users/olivi/cs401epfl/ada-website/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+C:/Ruby31-x64/bin/ruby.exe -I C:/Ruby31-x64/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: C:/Users/olivi/cs401epfl/ada-website/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20221214-7540-6nw3uf sitelibdir\=./.gem.20221214-7540-6nw3uf clean
+
+current directory: C:/Users/olivi/cs401epfl/ada-website/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20221214-7540-6nw3uf sitelibdir\=./.gem.20221214-7540-6nw3uf
+generating fastfilereaderext-x64-mingw-ucrt.def
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: C:/Users/olivi/cs401epfl/ada-website/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20221214-7540-6nw3uf sitelibdir\=./.gem.20221214-7540-6nw3uf install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20221214-7540-6nw3uf

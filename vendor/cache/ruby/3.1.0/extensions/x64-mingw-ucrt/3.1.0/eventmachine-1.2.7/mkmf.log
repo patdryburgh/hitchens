@@ -1,0 +1,787 @@
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" x86_64-w64-mingw32-pkg-config --exists openssl
+package configuration for openssl is not found
+have_library: checking for -lcrypto... -------------------- no
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lcrypto -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+C:/Ruby31-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lcrypto: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: 
+18: int t(void) { ; return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for -lssleay32... -------------------- no
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lssleay32 -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+C:/Ruby31-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lssleay32: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: 
+18: int t(void) { ; return 0; }
+/* end */
+
+--------------------
+
+have_var: checking for rb_trap_immediate in ruby.h,rubysig.h... -------------------- no
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64  -c conftest.c"
+conftest.c:6:10: fatal error: rubysig.h: No such file or directory
+    6 | #include <rubysig.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <ruby.h>
+ 6: #include <rubysig.h>
+ 7: 
+ 8: /*top*/
+ 9: extern int t(void);
+10: int main(int argc, char **argv)
+11: {
+12:   if (argc > 1000000) {
+13:     int (* volatile tp)(void)=(int (*)(void))&t;
+14:     printf("%d", (*tp)());
+15:   }
+16: 
+17:   return !!argv[argc];
+18: }
+19: int t(void) { const volatile void *volatile p; p = &(&rb_trap_immediate)[0]; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_thread_blocking_region()... -------------------- no
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+conftest.c: In function 't':
+conftest.c:17:57: error: 'rb_thread_blocking_region' undeclared (first use in this function)
+   17 | int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_blocking_region; return !p; }
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+conftest.c:17:57: note: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_blocking_region; return !p; }
+/* end */
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+C:/Ruby31-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\olivi\AppData\Local\Temp\ccOZn6F6.o:conftest.c:(.text+0x5): undefined reference to `rb_thread_blocking_region'
+collect2.exe: error: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: extern void rb_thread_blocking_region();
+18: int t(void) { rb_thread_blocking_region(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_thread_call_without_gvl() in ruby/thread.h... -------------------- yes
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <ruby/thread.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_without_gvl; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_thread_fd_select()... -------------------- yes
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_fd_select; return !p; }
+/* end */
+
+--------------------
+
+have_type: checking for rb_fdset_t in ruby/intern.h... -------------------- yes
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64  -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <ruby/intern.h>
+6: 
+7: /*top*/
+8: typedef rb_fdset_t conftest_type;
+9: int conftestval[sizeof(conftest_type)?1:-1];
+/* end */
+
+--------------------
+
+have_func: checking for rb_wait_for_single_fd()... -------------------- yes
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+conftest.c: In function 't':
+conftest.c:17:57: error: 'rb_wait_for_single_fd' undeclared (first use in this function)
+   17 | int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_wait_for_single_fd; return !p; }
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~
+conftest.c:17:57: note: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_wait_for_single_fd; return !p; }
+/* end */
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: extern void rb_wait_for_single_fd();
+18: int t(void) { rb_wait_for_single_fd(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_enable_interrupt()... -------------------- no
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+conftest.c: In function 't':
+conftest.c:17:57: error: 'rb_enable_interrupt' undeclared (first use in this function); did you mean 'rb_eInterrupt'?
+   17 | int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_enable_interrupt; return !p; }
+      |                                                         ^~~~~~~~~~~~~~~~~~~
+      |                                                         rb_eInterrupt
+conftest.c:17:57: note: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_enable_interrupt; return !p; }
+/* end */
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+C:/Ruby31-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\olivi\AppData\Local\Temp\ccULUiQS.o:conftest.c:(.text+0x5): undefined reference to `rb_enable_interrupt'
+collect2.exe: error: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: extern void rb_enable_interrupt();
+18: int t(void) { rb_enable_interrupt(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_time_new()... -------------------- yes
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_time_new; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for inotify_init() in sys/inotify.h... -------------------- no
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+conftest.c:5:10: fatal error: sys/inotify.h: No such file or directory
+    5 | #include <sys/inotify.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <sys/inotify.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))inotify_init; return !p; }
+/* end */
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+conftest.c:5:10: fatal error: sys/inotify.h: No such file or directory
+    5 | #include <sys/inotify.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <sys/inotify.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: extern void inotify_init();
+19: int t(void) { inotify_init(); return 0; }
+/* end */
+
+--------------------
+
+have_macro: checking for __NR_inotify_init in sys/syscall.h... -------------------- no
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64  -c conftest.c"
+conftest.c:5:10: fatal error: sys/syscall.h: No such file or directory
+    5 | #include <sys/syscall.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <sys/syscall.h>
+ 6: /*top*/
+ 7: #ifndef __NR_inotify_init
+ 8: # error
+ 9: |:/ === __NR_inotify_init undefined === /:|
+10: #endif
+/* end */
+
+--------------------
+
+have_func: checking for writev() in sys/uio.h... -------------------- no
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+conftest.c:5:10: fatal error: sys/uio.h: No such file or directory
+    5 | #include <sys/uio.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <sys/uio.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))writev; return !p; }
+/* end */
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+conftest.c:5:10: fatal error: sys/uio.h: No such file or directory
+    5 | #include <sys/uio.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <sys/uio.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: extern void writev();
+19: int t(void) { writev(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for pipe2() in unistd.h... -------------------- no
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+conftest.c: In function 't':
+conftest.c:18:57: error: 'pipe2' undeclared (first use in this function)
+   18 | int t(void) { void ((*volatile p)()); p = (void ((*)()))pipe2; return !p; }
+      |                                                         ^~~~~
+conftest.c:18:57: note: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <unistd.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))pipe2; return !p; }
+/* end */
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+C:/Ruby31-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\olivi\AppData\Local\Temp\ccvrPjwG.o:conftest.c:(.text+0x5): undefined reference to `pipe2'
+collect2.exe: error: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <unistd.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: extern void pipe2();
+19: int t(void) { pipe2(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for accept4() in sys/socket.h... -------------------- no
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+conftest.c:5:10: fatal error: sys/socket.h: No such file or directory
+    5 | #include <sys/socket.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <sys/socket.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))accept4; return !p; }
+/* end */
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+conftest.c:5:10: fatal error: sys/socket.h: No such file or directory
+    5 | #include <sys/socket.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <sys/socket.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return !!argv[argc];
+17: }
+18: extern void accept4();
+19: int t(void) { accept4(); return 0; }
+/* end */
+
+--------------------
+
+have_const: checking for SOCK_CLOEXEC in sys/socket.h... -------------------- no
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64  -c conftest.c"
+conftest.c:5:10: fatal error: sys/socket.h: No such file or directory
+    5 | #include <sys/socket.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <sys/socket.h>
+6: 
+7: /*top*/
+8: typedef int conftest_type;
+9: conftest_type conftestval = (int)SOCK_CLOEXEC;
+/* end */
+
+--------------------
+
+have_func: checking for clock_gettime()... -------------------- yes
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { void ((*volatile p)()); p = (void ((*)()))clock_gettime; return !p; }
+/* end */
+
+--------------------
+
+have_const: checking for CLOCK_MONOTONIC_RAW in time.h... -------------------- no
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64  -c conftest.c"
+conftest.c:9:34: error: 'CLOCK_MONOTONIC_RAW' undeclared here (not in a function); did you mean 'CLOCK_MONOTONIC'?
+    9 | conftest_type conftestval = (int)CLOCK_MONOTONIC_RAW;
+      |                                  ^~~~~~~~~~~~~~~~~~~
+      |                                  CLOCK_MONOTONIC
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <time.h>
+6: 
+7: /*top*/
+8: typedef int conftest_type;
+9: conftest_type conftestval = (int)CLOCK_MONOTONIC_RAW;
+/* end */
+
+--------------------
+
+have_const: checking for CLOCK_MONOTONIC in time.h... -------------------- yes
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "gcc -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64  -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <time.h>
+6: 
+7: /*top*/
+8: typedef int conftest_type;
+9: conftest_type conftestval = (int)CLOCK_MONOTONIC;
+/* end */
+
+--------------------
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "g++ -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310 -Wall -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main() {return 0;}
+/* end */
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "g++ -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310 -Wextra -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main() {return 0;}
+/* end */
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "g++ -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310 -Wno-deprecated-declarations -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main() {return 0;}
+/* end */
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "g++ -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310 -Wno-ignored-qualifiers -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main() {return 0;}
+/* end */
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "g++ -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310 -Wno-unused-result -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main() {return 0;}
+/* end */
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "g++ -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310 -Wno-address -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main() {return 0;}
+/* end */
+
+PATH=".;C:/Ruby31-x64/lib;C:\Ruby31-x64\bin;C:\Ruby31-x64\msys64\ucrt64\bin;C:\Ruby31-x64\msys64\usr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:/Program Files/Oracle/VirtualBox;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\olivi\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python35\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby31-x64\bin;C:\Users\olivi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\olivi\AppData\Local\Programs\Python\Python39\;C:\Users\olivi\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\olivi\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\olivi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin;C:\Users\olivi\AppData\Local\Coursier\data\bin" "g++ -o conftest.exe -IC:/Ruby31-x64/include/ruby-3.1.0/x64-mingw-ucrt -IC:/Ruby31-x64/include/ruby-3.1.0/ruby/backward -IC:/Ruby31-x64/include/ruby-3.1.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby31-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby310 -lstdc++ -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5:   #include <utility>
+6:   using namespace std;
+7:   int main(){ pair<const int,int> tuple = make_pair(1,2); }
+/* end */
+
