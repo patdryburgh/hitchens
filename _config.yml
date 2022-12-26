@@ -22,10 +22,11 @@ url: "https://catharsis.page # the base hostname & protocol for your site, e.g. 
 icon: /assets/images/icon-512.png
 twitter_username: 
 github_username:  
-hide_credits: true
+
 
 # Build settings
 markdown: kramdown
+hide_credits: True
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
