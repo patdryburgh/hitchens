@@ -17,8 +17,8 @@ title:  LostinTranslations
 discord: https://discord.gg/B5c7RePV
 description: >- # this means to ignore newlines until "baseurl:"
   Community Driven Translations
-baseurl: "/works" # the subpath of your site, e.g. /blog
-url: "https://ghostofsky.github.io/DPGATranslations/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/DPGATranslations" # the subpath of your site, e.g. /blog
+url: "https://ghostofsky.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/icon-512.png
 twitter_username: N/A
 github_username:  N/A
