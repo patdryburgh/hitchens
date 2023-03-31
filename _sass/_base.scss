@@ -85,7 +85,8 @@ hr {
   border: 0;
   height: 0;
   @include divider;
-  margin: 4em 0;
+  margin: 4em auto;
+  text-align: center;
 }
 
 img {

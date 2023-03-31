@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title:  LostinTranslations
+title:  DPGA
 discord: https://discord.gg/B5c7RePV
 description: >- # this means to ignore newlines until "baseurl:"
-  Community Driven Translations
+  Join the 
 baseurl: "/DPGATranslations" # the subpath of your site, e.g. /blog
 url: "https://ghostofsky.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/icon-512.png
@@ -41,5 +41,5 @@ markdown: kramdown
 plugins:
   - jekyll-paginate
 
-paginate: 3
+paginate: 10
 paginate_path: "/page/:num/"
