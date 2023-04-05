@@ -17,7 +17,13 @@
     {%- if jekyll.environment == 'production' and site.google_analytics -%}
       {%- include google-analytics.html -%}
     {%- endif -%}
-
+    <script>
+      var isDarkmode = {{ page.darkmode | default: false }};
+      var isDarkmode = localStorage.getItem("isDarkmode") === "true";
+      document.documentElement.style.setProperty("--bg-color", !isDarkmode ? "#fede00":"black"); 
+      document.documentElement.style.setProperty("--text-c", !isDarkmode ? "black":"white");
+      document.documentElement.style.setProperty("--post-color", !isDarkmode ? "white":"black"); 
+    </script>
   </head>
   <body>
 
@@ -41,9 +47,6 @@
 
     {% unless site.hide_credits %}
       <aside class="site-credits">
-        <p>
-          <small><a href="https://github.com/patdryburgh/hitchens">Hitchens Theme</a> powered by <a href="http://jekyllrb.com">Jekyll</a></small>
-        </p>
       </aside>
     {% endunless %}
 

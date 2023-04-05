@@ -38,6 +38,12 @@ markdown: kramdown
 #   - vendor/gems/
 #   - vendor/ruby/
 
+collections:
+  chapters:
+    output: true
+    permalink: /:collection/:title/
+    sort_by: chapter
+
 plugins:
   - jekyll-paginate
 

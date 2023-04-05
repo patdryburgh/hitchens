@@ -1,19 +1,19 @@
 <li>
-  <a href="{{ post.url | absolute_url }}" class="post-link">
+  <a href="{{ chapter.url | absolute_url }}" class="post-link">
     <div class="post-link__heading">
-      {% unless post.title == "" %}
+      {% unless chapter.title == "" %}
           <h1 class="post-link__title">      
-            {{ post.title }}
+            {{ chapter.title }}
           </h1>
       {% else %}
         {% include post-excerpt.html %}
       {% endunless %}
-      {% if post.title != "" and site.show_excerpts == true %}
-        {% include post-excerpt.html %}
+      {% if chapter.title != "" and site.show_excerpts == true %}
+        {% include chapter-excerpt.html %}
       {% endif %}
     </div>
     <span class="post-date">
-      {{ post.date | date: "%b %-d, '%y" }}
+      {{ chapter.chapter }}
     </span>
   </a>
 </li>

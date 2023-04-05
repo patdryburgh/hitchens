@@ -14,6 +14,15 @@
           <a href="{{ item.url }}">
             {{ item.title }}
           </a>
+        {% elsif item.button == "toggle" %}
+            <a href='javascript:
+                    var isDarkmode = localStorage.getItem("isDarkmode") === "true";
+                    document.documentElement.style.setProperty("--bg-color", isDarkmode ? "#fede00":"black"); 
+                    document.documentElement.style.setProperty("--text-c", isDarkmode ? "#black":"white"); 
+                    document.documentElement.style.setProperty("--post-color", isDarkmode ? "white":"black"); 
+                    isDarkmode = !isDarkmode;
+                    localStorage.setItem("isDarkmode", isDarkmode);'>
+                    DarkMode</a>
         {% else %}
           <a href="{{ item.url | prepend: site.baseurl }}">
             {{ item.title }}

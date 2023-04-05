@@ -16,7 +16,7 @@ layout: default
     {% endif %}
     {% if site.title %}
       <h2>
-        {{ site.description }} <a style="color: darkmagenta;"href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Discord</a>
+        {{ site.description }} <a style="color: darkmagenta;"href="https://discord.gg/B5c7RePV">Discord</a>
       </h2>
     {% endif %}
   </header>
@@ -32,7 +32,7 @@ layout: default
     {% endif %}
   </h1>
 
-  {% if site.paginate and site.paginate_path %}
+  {% if false %}
     
     <ul class="post-list">
       {% for post in paginator.posts %}
@@ -61,7 +61,7 @@ layout: default
   {% else %}
 
     <ul class="post-list">
-      {% for post in site.posts %}
+      {% for chapter in site.chapters %}
         {% include post-list-item.html %}
       {% endfor %}
     </ul>

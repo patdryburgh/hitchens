@@ -1,8 +1,20 @@
-$brand-color:         #fede00;
-$highlight:           lighten($brand-color, 35%);
-$text-color:          #0b0404;
+
+
+:root,[data-theme="default"] {
+    --bg-color: #fede00;
+    --highlight: lighten(#fede00, 35%);
+    --base-light: lighten(#fede00, 2.5%);
+    --article-dark: darken(#fede00, 50%);
+    --darkmode: "false";
+    --text-c: #0b0404;
+    --post-color:#ffff;
+}
+
+$brand-color:         var(--bg-color);
+// $highlight:           lighten(#fede00, 35%);
+$text-color:          var(--text-c);
 $muted-text-color:    #64644B;
-$font-family:         "EB Garamond", sans-serif, Garamond, "Times New Roman", serif;
+$font-family:         "EB Garamond", "Times New Roman", Garamond, "Times New Roman", serif;
 
 $on-bigphone:         375px;
 $on-tablet:           768px;

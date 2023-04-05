@@ -27,6 +27,14 @@ layout: default
     {% endif %}
     <time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
   </div>
+  <div class="PageNavigation">
+    {% if page.previous.url %}
+      <a class="prev" href="{{site.baseurl}}{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="next" href="{{site.baseurl}}{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    {% endif %}
+  </div>
 
   {% if site.disqus.shortname %}
     {% include disqus-comments.html %}

@@ -1,9 +1,9 @@
 .post {
-  background: white;
+  background: var(--post-color);
   margin: 2em auto;
   max-width: 60rem;
   padding: 2em 0;
-  box-shadow: 12px 18px 24px rgba(darken($brand-color, 50%), .1);
+  box-shadow: 12px 18px 24px rgba(var(--article-dark), .1);
 }
 
 .post > * {
@@ -30,7 +30,7 @@
 }
 
 .post a:hover {
-  background: $highlight;
+  background: var(--highlight);
 }
 
 .post dl,
@@ -60,4 +60,22 @@
   padding: 1em;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
 }
