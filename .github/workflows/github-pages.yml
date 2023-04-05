@@ -17,5 +17,5 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       - uses: helaili/jekyll-action@2.0.5    # Choose any one of the Jekyll Actions
-        with:                                # Some relative inputs of your action
-          token: ${{ secrets.YOUR_CUSTOM_TOKEN  }}
+        env:
+          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
