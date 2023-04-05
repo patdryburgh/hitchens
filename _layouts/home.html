@@ -59,9 +59,9 @@ layout: default
     {% endif %}
 
   {% else %}
-
+    {% assign stuff = site.chapters | sort_by: chapter %}
     <ul class="post-list">
-      {% for chapter in site.chapters %}
+      {% for chapter in stuff %}
         {% include post-list-item.html %}
       {% endfor %}
     </ul>
