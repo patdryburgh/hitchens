@@ -21,12 +21,16 @@
 }
 
 .post p {
-  text-indent: 1.5em;
+  text-indent: 1em;
 }
 
 .post p:first-of-type,
 .post h2 + p {
-  text-indent: 0;
+  text-indent: 1em;
+}
+
+.post p+p {
+  margin-top: 0.5em;
 }
 
 .post a:hover {
