@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title:  DPGA
-discord: https://discord.gg/B5c7RePV
+discord: https://discord.gg/fWcnF6mQ4E
 description: >- # this means to ignore newlines until "baseurl:"
   Join the 
 baseurl: "/DPGATranslations" # the subpath of your site, e.g. /blog
