@@ -131,6 +131,9 @@ figcaption {
   font-size: .825em;
   white-space: nowrap;
   text-transform: uppercase;
+  display: inline;
+  float: right;
+  text-align: right;
   .post-link & {
     padding: .5em 0;
   }

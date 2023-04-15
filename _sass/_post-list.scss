@@ -26,8 +26,7 @@
   }
   @media (min-width: $on-tablet) {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column-reverse;
     .post-date {
       margin-left: auto;
     }

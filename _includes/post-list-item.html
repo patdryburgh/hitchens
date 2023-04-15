@@ -4,6 +4,9 @@
       {% unless chapter.title == "" %}
           <h1 class="post-link__title">      
             {{ chapter.title }}
+              <span class="post-date">
+                {{ chapter.chapter }}
+              </span>
           </h1>
       {% else %}
         {% include post-excerpt.html %}
@@ -12,8 +15,5 @@
         {% include chapter-excerpt.html %}
       {% endif %}
     </div>
-    <span class="post-date">
-      {{ chapter.chapter }}
-    </span>
   </a>
 </li>
