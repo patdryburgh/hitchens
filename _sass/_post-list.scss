@@ -1,4 +1,5 @@
 .post-list {
+  display: table;
   margin: 1em 0;
   list-style: none;
   &:hover,
@@ -35,7 +36,7 @@
 
 .post-link__heading {
   display: block;
-  margin-right: 4em;
+  margin-right: 1em;
   @media (min-width: $on-tablet) {
     padding: .25em 0;
   }
