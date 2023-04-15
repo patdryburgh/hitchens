@@ -23,7 +23,6 @@ layout: default
 {% endif %}
 
 <main class="home" id="main" role="main" aria-label="Content">
-
   <h1 class="content-title divided">
     {% if site.paginate and site.paginate_path and paginator.page > 1 %}
       Page {{ paginator.page }}
@@ -31,7 +30,7 @@ layout: default
       Contents
     {% endif %}
   </h1>
-
+    {% include search.html %}
   {% if false %}
     
     <ul class="post-list">

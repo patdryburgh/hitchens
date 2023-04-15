@@ -1,4 +1,5 @@
 .post-list {
+  display: block;
   margin: 1em 0;
   list-style: none;
   &:hover,
@@ -26,8 +27,7 @@
   }
   @media (min-width: $on-tablet) {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column-reverse;
     .post-date {
       margin-left: auto;
     }
@@ -36,7 +36,7 @@
 
 .post-link__heading {
   display: block;
-  margin-right: 4em;
+  margin-right: 1em;
   @media (min-width: $on-tablet) {
     padding: .25em 0;
   }

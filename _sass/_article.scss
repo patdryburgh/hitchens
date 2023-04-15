@@ -9,8 +9,8 @@
 .post > * {
   margin-left: auto;
   margin-right: auto;
-  max-width: 36rem;
-  padding: 0 1em;
+  max-width: 100rem;
+  padding: 0 1.3em;
 }
 
 .post > h1 {
@@ -21,12 +21,12 @@
 }
 
 .post p {
-  text-indent: 1em;
+  text-indent: 0em;
 }
 
 .post p:first-of-type,
 .post h2 + p {
-  text-indent: 1em;
+  text-indent: 0em;
 }
 
 .post p+p {
