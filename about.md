@@ -11,7 +11,7 @@ Translated by: The Community
 
 Join our: [Discord](https://discord.gg/fWcnF6mQ4E)
 
-NOTE: Chapters before 260 are not translated by us but by a previous translation group that have since taken them down. We simply changed the formatting and added illustrations to those chapters.
+NOTE: Chapters before 260 are largely credited to a previous translation group that have since taken them down. We simply changed the formatting, did some minor editing, and added illustrations to those chapters.
 
 To search for a chapter simply type in the number you are searching for in the 'Go to Chapter...' bar below.
 
