@@ -1,0 +1,12 @@
+<form method="get" id="search" action={{ site.baseurl }}/ onsubmit="event.preventDefault(); changeFormAction2(event);">
+  <input type="text" name= "chapter" id="search__input2" placeholder="Go to Chapter&hellip;"/ autocomplete="off">
+  <button type="submit" class="btn btn-bordered" tabindex="-1">Search
+  </button>
+</form>
+<script>
+function changeFormAction2(event) {
+  var item = document.getElementById("search__input2").value;
+  window.location.href = "{{ site.baseurl }}" + "/chapters/" + item + "/";
+  
+}
+</script>

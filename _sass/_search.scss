@@ -16,6 +16,18 @@
   }
 }
 
+#search__input2 {
+  background: transparent;
+  border: 0;
+  font: 1em $font-family;
+  padding: .5em;
+  color: $text-color;
+  text-align: center;
+  &:focus {
+    outline: 1px dashed $text-color;
+  }
+}
+
 #search button[type="submit"] {
   display: none;
 }
