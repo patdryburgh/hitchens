@@ -1,8 +1,11 @@
+- title: Home
+  url: 
+
 - title: About the Project
-  url: /about.html
+  url: about.html
 
 - title: Database
-  url: /database.html
+  url: database.html
 
 - title: Excavations
   url: https://excavations.digital/
