@@ -1,17 +1,9 @@
 ---
 layout: post
-title: About
+title: Governance Archaeology
 ---
 
-Undoubtably one of the great minds of our time, Christopher Hitchens challenged his readers to think deeply on topics of politics, religion, war, and science. This Jekyll theme is designed in his memory.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ornare auctor massa, a posuere metus condimentum quis. Fusce quis pretium sem, a molestie tellus. Duis consequat, ligula ac rhoncus hendrerit, leo nunc vulputate magna, sit amet congue magna tortor vel lacus. Cras lacinia, tellus a hendrerit molestie, orci tellus condimentum lorem, a tempor eros ipsum nec lectus. Pellentesque ultricies, eros in accumsan dictum, velit odio rutrum tortor, pretium aliquet sem lorem sit amet velit. Ut sem nibh, volutpat non urna non, lobortis luctus nulla. Praesent eros est, venenatis mollis vulputate commodo, convallis et lectus. Sed tristique dignissim est vel porta. Nullam at neque vitae risus pellentesque sodales.
 
-<figure>
-  <img alt="Christopher Hitchens" src="https://upload.wikimedia.org/wikipedia/commons/6/63/Christopher_Hitchens_2008-04-24_001.jpg" />
-  <figcaption>
-    Photo by Fri Tanke and licensed under the <a href="https://creativecommons.org/licenses/by/3.0/deed.en">Creative Commons Attribution 3.0 Unported</a> license.
-  </figcaption>
-</figure>
+Donec sem ante, iaculis interdum placerat vitae, interdum nec risus. Quisque et justo augue. Nulla facilisi. Suspendisse id enim vitae ex lobortis facilisis mollis ut odio. Maecenas at ex nisl. Aliquam dapibus, neque ut viverra feugiat, risus mauris tempus arcu, eu aliquet felis tortor at metus. Pellentesque semper felis sit amet ex egestas, imperdiet tempus augue pellentesque. Aenean aliquam ex ut sem ornare, eu ultricies ligula pellentesque. Praesent non elit tempus, dictum diam in, semper enim. Nulla sit amet ante vel nulla dictum tempus sit amet sed quam. Donec at consequat libero. In vel eleifend sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt tellus in pulvinar porttitor.
 
-From [Wikipedia](https://en.wikipedia.org/wiki/Christopher_Hitchens):
-
->Christopher Eric Hitchens (13 April 1949 – 15 December 2011) was an Anglo-American author, columnist, essayist, orator, religious and literary critic, social critic, and journalist. Hitchens was the author, co-author, editor or co-editor of over 30 books, including five collections of essays on culture, politics and literature. A staple of public discourse, his confrontational style of debate made him both a lauded intellectual and a controversial public figure. He contributed to New Statesman, The Nation, The Weekly Standard, The Atlantic, London Review of Books, The Times Literary Supplement, Slate, Free Inquiry and Vanity Fair.

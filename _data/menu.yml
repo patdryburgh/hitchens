@@ -1,8 +1,11 @@
-- title: About
-  url: /about.html
+- title: About the Project
+  url: about.html
 
-- title: Source
-  url: https://github.com/patdryburgh/hitchens
+- title: Database
+  url: database.html
 
-- title: Designer
-  url: http://patdryburgh.com
+- title: Excavations
+  url: https://excavations.digital/
+
+- title: Research as ancestry
+  url: https://direct.mit.edu/daed/article/152/1/245/115000/Governance-Archaeology-Research-as-Ancestry
