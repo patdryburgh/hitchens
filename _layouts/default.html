@@ -21,31 +21,13 @@
   </head>
   <body>
 
-    {% if page.layout == 'home' %}
-      <a href="#main" class="skip-navigation">
-        Skip to list of posts
-      </a>
-    {% else %}
-      <a href="#main" class="skip-navigation">
-        Skip to content
-      </a>
-    {% endif %}
+      {{ content  }}
 
-    {{ content }}
-
-    {% unless site.hide_search %}
-      {% include search.html %}
-    {% endunless %}
-
-    {% include menu.html %}
-
-    {% unless site.hide_credits %}
-      <aside class="site-credits">
-        <p>
-          <small><a href="https://github.com/patdryburgh/hitchens">Hitchens Theme</a> powered by <a href="http://jekyllrb.com">Jekyll</a></small>
-        </p>
-      </aside>
-    {% endunless %}
+  <aside class="site-credits">
+    <p>
+      <small><a href="https://github.com/patdryburgh/hitchens">Hitchens Theme</a> powered by <a href="http://jekyllrb.com">Jekyll</a></small>
+    </p>
+  </aside>
 
   </body>
 </html>

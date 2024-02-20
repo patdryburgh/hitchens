@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data page
+title: Database
 ---
 
 Description of data here ... 
