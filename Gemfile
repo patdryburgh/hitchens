@@ -9,3 +9,6 @@ gem "jekyll", "~> 4.2.0"
 
 # for demo site
 gem "jekyll-paginate"
+
+gem "webrick", "~> 1.8"
+gem 'thin' 
