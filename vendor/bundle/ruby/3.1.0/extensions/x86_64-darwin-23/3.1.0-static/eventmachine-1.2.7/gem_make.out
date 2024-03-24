@@ -1,0 +1,16 @@
+current directory: /Users/macinzeknuth/Code/knuthmac.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/macinzeknuth/.rubies/ruby-3.1.3/bin/ruby -I /Users/macinzeknuth/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/macinzeknuth/Code/knuthmac.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240217-46702-zj7o79 sitelibdir\=./.gem.20240217-46702-zj7o79 clean
+
+current directory: /Users/macinzeknuth/Code/knuthmac.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240217-46702-zj7o79 sitelibdir\=./.gem.20240217-46702-zj7o79
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/macinzeknuth/Code/knuthmac.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240217-46702-zj7o79 sitelibdir\=./.gem.20240217-46702-zj7o79 install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20240217-46702-zj7o79

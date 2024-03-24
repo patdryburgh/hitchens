@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Hitchens
-email: hello@patdryburgh.com
+title: Macinze Knuth
+email: macinzek@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  An inarguably well-designed Jekyll theme.
-baseurl: "/hitchens" # the subpath of your site, e.g. /blog
-url: "https://patdryburgh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+  Documentation of personal projects
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://knuthmac.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/icon-512.png
-twitter_username: patdryburgh
-github_username:  patdryburgh
+# twitter_username: patdryburgh
+# github_username:  patdryburgh
 
 # Build settings
 markdown: kramdown
@@ -38,8 +38,12 @@ markdown: kramdown
 #   - vendor/gems/
 #   - vendor/ruby/
 
-plugins:
-  - jekyll-paginate
+plugins: [jekyll-paginate]
 
+gems:
+  - jekyll-paginate
 paginate: 3
 paginate_path: "/page/:num/"
+
+theme: hitchens-theme
+ignore_theme_config: true

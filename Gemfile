@@ -3,5 +3,9 @@
 source "https://rubygems.org"
 gemspec
 
-# for demo site
-gem "jekyll-paginate"
+# gem "hitchens-theme"
+gem 'http_parser.rb', '~> 0.8.0'
+
+group :jekyll_plugins do
+  gem "jekyll-paginate"
+end
